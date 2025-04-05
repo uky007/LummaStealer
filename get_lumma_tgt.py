@@ -5,8 +5,12 @@ import base64
 import os
 
 def lummac2(c2, endpoint):
+
+    if endpoint[0] != "/":
+        endpoint = "/" + endpoint
+
     endpoint = "https://" + c2 + endpoint
-    if endpoint = "/api":
+    if endpoint == "/api":
         ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
         data = {"act": "life"}
     else:
