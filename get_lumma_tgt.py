@@ -16,7 +16,7 @@ def lummac2(c2, endpoint):
     else:
         ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
         data = {
-            "id": "25267d0538603174d8065b30cff05f92b180b2ba14f9",
+            "uid": "25267d0538603174d8065b30cff05f92b180b2ba14f9",
             "cid":""
         }
     
