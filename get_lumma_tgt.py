@@ -46,6 +46,7 @@ def lummac2(c2, endpoint):
         '''
         return conf
     else:
+        print(response.text)
         return response.text
 
 def lummac2_decoder(data):
