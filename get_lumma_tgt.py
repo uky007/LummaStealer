@@ -46,6 +46,7 @@ def lummac2(c2, endpoint):
         '''
         return conf
     else:
+        print("[-] Unexpect response from LummaC2")
         print(response.text)
         return response.text
 
