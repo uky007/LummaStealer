@@ -12,5 +12,9 @@ This Python script acquires the target theft information that Lumma Stealer acqu
 ### Usage
 
 ```
-python get_lumma_tgt.py <Lumma C2 server>
+python get_lumma_tgt.py <Lumma C2 server> <endpoint> (optional, default "/api")
 ```
+
+### Expected result
+
+The output results are written to a file in JSON format.
