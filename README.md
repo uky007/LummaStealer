@@ -105,3 +105,38 @@ IDA Pro Python scripts for deobfuscating [Lumma Stealer](https://malpedia.caad.f
 5. **`lumma_apply_layer2.py`** — Apply Layer 2 results to IDA comments
 
 Each script is run via **File > Script file** in IDA Pro (except `lumma_layer2_decoder.py`, which runs standalone with Python 3).
+
+## Future Work
+
+### 1. Recover code hidden behind register-indirect jumps
+
+`lumma_fix_code_obfuscation.py` currently handles `jmp [dword_XXXXXXXX]` (FF 25) memory-indirect jumps. However, **register-indirect jumps** such as `jmp eax`, `jmp ecx`, and `call eax` also break IDA's control flow analysis, leaving subsequent bytes as undefined data (`db`/`dd`). A future pass would:
+
+- Resolve register values via backward slicing or emulation to determine jump targets
+- Convert the orphaned data regions back to code (`ida_auto.plan_and_wait` / `idc.create_insn`)
+- Rebuild function boundaries so the decompiler can produce correct pseudocode
+
+### 2. Re-scan newly recovered code for obfuscated strings
+
+After converting data regions to code (step 1 above), additional decrypt function call sites may become visible that were previously hidden in undefined data. A **two-pass workflow** would:
+
+- Run the code recovery pass first
+- Re-scan the entire `.text` section for new `call` instructions targeting known decrypt functions
+- Apply the string deobfuscator to any newly discovered call sites
+
+### 3. Dead branch elimination in CFF-flattened functions
+
+`lumma_fix_cff.py` resolves the CFF dispatcher into direct jumps, but the resulting control flow graph still contains **unreachable branches** — switch cases that are never dispatched. These dead paths clutter the decompiler output. A future improvement would:
+
+- Perform reachability analysis on the patched CFG to identify branches with no incoming edges
+- Gray out or NOP-fill unreachable basic blocks
+- Allow the decompiler to produce cleaner, more readable pseudocode
+
+### 4. Generalize for Lumma Stealer variants
+
+The current tools are tuned to a single sample. To support other Lumma Stealer builds and versions:
+
+- **Auto-detect decrypt algorithm parameters**: Instead of relying on `KNOWN_DECRYPT_FUNCTIONS` with hardcoded `(xor_key, add_value, loop_count)` tuples, improve the MBA pattern recognition engine to algebraically solve arbitrary MBA expressions (e.g., generalized `((x << N) & MASK) - (x ^ CONST)` → `x + ADD`) without manual analysis
+- **Auto-detect image base and section layout**: Remove hardcoded `IMAGE_BASE`, `TEXT_VA`, and stack frame assumptions; derive them from the PE header at runtime
+- **Handle relocated samples**: Support ASLR-rebased binaries where absolute addresses differ from the on-disk PE
+- **Version-specific algorithm tables**: Lumma Stealer evolves across versions — maintain a registry of known algorithm signatures that can be matched against new samples, while falling back to heuristic detection for unknown variants
