@@ -109,7 +109,7 @@ The loader sample is available on [MalwareBazaar](https://bazaar.abuse.ch/sample
 1. lumma_fix_code_obfuscation.py   # Fix indirect jumps (FF 25 → E9)
 2. lumma_fix_cff_v2.py             # Fix CFF dispatchers (NOP sequences)
 3. fix_zeroed_switches.py          # Fix zeroed switch tables
-4. lumma_code_deobfuscator.py      # Cleanup: jmp reg, junk, dead code
+4. lumma_code_deobfuscator.py      # Cleanup: jmp reg, dead code (default phases="ABD"; Phase C is opt-in)
 5. lumma_deobfuscator.py           # Decrypt strings and data
 6. lumma_layer2_decoder.py         # (standalone) Decode Layer 2 entries
 7. lumma_apply_layer2.py           # Apply Layer 2 to IDA comments
