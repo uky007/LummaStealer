@@ -21,6 +21,10 @@ We unpacked the Lumma Stealer sample from a Go-based loader, then deobfuscated t
 | Build Date | Jan 14 2026 |
 | Architecture | x86 |
 
+The loader sample is available on [MalwareBazaar](https://bazaar.abuse.ch/sample/de67d471f63e0d2667fb1bd6381ad60465f79a1b8a7ba77f05d8532400178874/). The payload PE can be extracted from the loader using memory dump during RunPE injection (WriteProcessMemory).
+
+> **Note**: Standalone scripts (`capstone_scan_obfuscation.py`, `unicorn_resolve_cff.py`) require the payload binary. Adjust the `PAYLOAD_PATH` variable to point to your local copy.
+
 ## Deobfuscation Results
 
 ### String & Data Deobfuscation
