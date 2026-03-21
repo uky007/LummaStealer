@@ -122,8 +122,20 @@ Each dispatcher has its own table/index pair on the stack (not a shared state va
 
 The fix strategy NOPs the entire setup+dispatch sequence (avg 21.4 bytes per dispatcher), allowing code to fall through. This is viable because 98% of dispatchers have valid code immediately after them.
 
+## Results
+
+The `results/` directory contains analysis outputs in JSON format:
+
+| File | Description |
+|------|-------------|
+| `deobf_results.json` | All 610 decrypted strings, binary data, GUIDs, DWORDs, and shellcode with addresses, algorithm types, and decrypted values. |
+| `obfuscation_scan_results.json` | Capstone offline scan results: 467 CFF dispatchers, 288 indirect jumps, 16 junk pairs, 346 MBA clusters, and anti-disassembly patterns. |
+| `cff_cluster3_resolved.json` | Resolved CFF dispatcher targets for Cluster 3 (181/228 dispatchers, with jump table entries and setcc types). |
+| `cff_cluster2_resolved.json` | Resolved CFF dispatcher targets for Cluster 2 (63/94 dispatchers). |
+
 ## Future Work
 
 - **MBA expression simplification**: 346 MBA expression clusters remain in the binary. These produce correct but complex pseudocode in Hex-Rays. A simplification pass could reduce `((x & m) | (~x & ~m)) + k` back to `x ^ m + k`.
 - **Generalize for Lumma variants**: Auto-detect algorithm parameters, section layout, and version-specific patterns for other builds.
 - **Layer 2 low-confidence entries**: 8 decoded entries with confidence < 0.60 need IDA runtime verification.
+- **Cross-cluster CFF flow tracing**: Enumerate all inter-cluster jumps and trace register values to resolve remaining Cluster 0/1 dispatchers. See `CFF_CROSS_CLUSTER_ANALYSIS.md` for details.

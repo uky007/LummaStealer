@@ -1,0 +1,6127 @@
+{
+  "summary": {
+    "total_calls": 610,
+    "successful": 211,
+    "shellcode_count": 3,
+    "binary_count": 396,
+    "failed_extract": 0,
+    "failed_decrypt": 0,
+    "comments_added": 610,
+    "type_counts": {
+      "type1": 490,
+      "type3": 44,
+      "type4": 10,
+      "type5": 47,
+      "type6": 1,
+      "type7": 13,
+      "type8": 1,
+      "type9": 1,
+      "type10": 1,
+      "type11": 1,
+      "type12": 1
+    }
+  },
+  "count": 610,
+  "entries": [
+    {
+      "address": "0x0280BD9B",
+      "func_address": "0x0280C390",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "[BINARY 4 bytes]",
+      "raw_hex": "09000000"
+    },
+    {
+      "address": "0x0280BDF7",
+      "func_address": "0x0280C390",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "[BINARY 4 bytes]",
+      "raw_hex": "09000000"
+    },
+    {
+      "address": "0x0280C043",
+      "func_address": "0x0280C430",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 60694780 (0x039E20FC)",
+      "raw_hex": "fc209e03"
+    },
+    {
+      "address": "0x0280C1CE",
+      "func_address": "0x0280C6A0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "[BINARY 4 bytes]",
+      "raw_hex": "00200000"
+    },
+    {
+      "address": "0x0280C871",
+      "func_address": "0x0280E330",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 512 (0x00000200)",
+      "raw_hex": "00020000"
+    },
+    {
+      "address": "0x0280CC45",
+      "func_address": "0x0280E580",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "[BINARY 3 bytes]",
+      "raw_hex": "0d0a00"
+    },
+    {
+      "address": "0x0280CC63",
+      "func_address": "0x0280E500",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.3333,
+      "size": 6,
+      "string": "220d0a0d0a00",
+      "raw_hex": "220d0a0d0a00"
+    },
+    {
+      "address": "0x0280CCC7",
+      "func_address": "0x0280E470",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 41,
+      "string": "Content-Disposition: form-data; name=\"",
+      "raw_hex": "0d0a436f6e74656e742d446973706f736974696f6e3a20666f726d2d646174613b206e616d653d2200"
+    },
+    {
+      "address": "0x0280CCE2",
+      "func_address": "0x0280E3D0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "e4e4bd",
+      "raw_hex": "e4e4bd"
+    },
+    {
+      "address": "0x0280CE75",
+      "func_address": "0x0280E7E0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 43,
+      "string": "Content-Type: application/octet-stream",
+      "raw_hex": "436f6e74656e742d547970653a206170706c69636174696f6e2f6f637465742d73747265616d0d0a0d0a00"
+    },
+    {
+      "address": "0x0280CF12",
+      "func_address": "0x0280E6C0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 58,
+      "string": "Content-Disposition: form-data; name=\"file\"; filename=\"",
+      "raw_hex": "0d0a436f6e74656e742d446973706f736974696f6e3a20666f726d2d646174613b206e616d653d2266696c65223b2066696c656e616d653d2200"
+    },
+    {
+      "address": "0x0280CF2D",
+      "func_address": "0x0280E610",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "2d2d00",
+      "raw_hex": "2d2d00"
+    },
+    {
+      "address": "0x0280D21E",
+      "func_address": "0x0280E8E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.4286,
+      "size": 7,
+      "string": "2d2d0d0a0d0a00",
+      "raw_hex": "2d2d0d0a0d0a00"
+    },
+    {
+      "address": "0x0280D23A",
+      "func_address": "0x0280E860",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.6,
+      "size": 5,
+      "string": "0d0a2d2d00",
+      "raw_hex": "0d0a2d2d00"
+    },
+    {
+      "address": "0x0280D437",
+      "func_address": "0x0280DE50",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "expa",
+      "raw_hex": "65787061"
+    },
+    {
+      "address": "0x0280D482",
+      "func_address": "0x0280DEE0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "nd 3",
+      "raw_hex": "6e642033"
+    },
+    {
+      "address": "0x0280D4CD",
+      "func_address": "0x0280DF60",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "2-by",
+      "raw_hex": "322d6279"
+    },
+    {
+      "address": "0x0280D52F",
+      "func_address": "0x0280DFF0",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1258243155 (0x4AFF4453)",
+      "raw_hex": "5344ff4a"
+    },
+    {
+      "address": "0x0280D8C6",
+      "func_address": "0x0280E0B0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "expa",
+      "raw_hex": "65787061"
+    },
+    {
+      "address": "0x0280D8DD",
+      "func_address": "0x0280E150",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "nd 3",
+      "raw_hex": "6e642033"
+    },
+    {
+      "address": "0x0280D90B",
+      "func_address": "0x0280E290",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "te k",
+      "raw_hex": "7465206b"
+    },
+    {
+      "address": "0x0280DC1E",
+      "func_address": "0x0280E960",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "uid",
+      "raw_hex": "75696400"
+    },
+    {
+      "address": "0x0280DC39",
+      "func_address": "0x0280E9E0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "pid",
+      "raw_hex": "70696400"
+    },
+    {
+      "address": "0x0280DC5D",
+      "func_address": "0x0280EA70",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "hwid",
+      "raw_hex": "6877696400"
+    },
+    {
+      "address": "0x0280DC81",
+      "func_address": "0x0280EB00",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "data",
+      "raw_hex": "6461746100"
+    },
+    {
+      "address": "0x0280DD56",
+      "func_address": "0x0280EB90",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 90,
+      "string": "Content-Type: multipart/form-data; boundary=",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006d0075006c007400690070006100720074002f0066006f0072006d002d0064006100740061003b00200062006f0075006e0064006100720079003d000000"
+    },
+    {
+      "address": "0x0280EC3D",
+      "func_address": "0x028113E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2423555758 (0x907486AE)",
+      "raw_hex": "ae867490"
+    },
+    {
+      "address": "0x0280ECDB",
+      "func_address": "0x028116A0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 0.9833,
+      "size": 61,
+      "string": "<div class=\"tgme_page_title\" dir=\"auto\">\n  <span dir=\"auto\">",
+      "raw_hex": "3c64697620636c6173733d2274676d655f706167655f7469746c6522206469723d226175746f223e0a20203c7370616e206469723d226175746f223e00"
+    },
+    {
+      "address": "0x0280ED78",
+      "func_address": "0x028116A0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 0.9833,
+      "size": 61,
+      "string": "<div class=\"tgme_page_title\" dir=\"auto\">\n  <span dir=\"auto\">",
+      "raw_hex": "3c64697620636c6173733d2274676d655f706167655f7469746c6522206469723d226175746f223e0a20203c7370616e206469723d226175746f223e00"
+    },
+    {
+      "address": "0x0280EDF1",
+      "func_address": "0x02811730",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "</span>",
+      "raw_hex": "3c2f7370616e3e00"
+    },
+    {
+      "address": "0x0280EE1E",
+      "func_address": "0x02811730",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "</span>",
+      "raw_hex": "3c2f7370616e3e00"
+    },
+    {
+      "address": "0x0280F020",
+      "func_address": "0x028115A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 262766861 (0x0FA9810D)",
+      "raw_hex": "0d81a90f"
+    },
+    {
+      "address": "0x0280F166",
+      "func_address": "0x02811620",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 128 (0x00000080)",
+      "raw_hex": "80000000"
+    },
+    {
+      "address": "0x0280F20E",
+      "func_address": "0x028114F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2048 (0x00000800)",
+      "raw_hex": "00080000"
+    },
+    {
+      "address": "0x0280F24D",
+      "func_address": "0x02811460",
+      "encoding": "UTF-16LE",
+      "algo_type": 7,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "winhttp.dll",
+      "raw_hex": "770069006e0068007400740070002e0064006c006c000000"
+    },
+    {
+      "address": "0x0280F273",
+      "func_address": "0x028114F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2048 (0x00000800)",
+      "raw_hex": "00080000"
+    },
+    {
+      "address": "0x0280F2B2",
+      "func_address": "0x02811460",
+      "encoding": "UTF-16LE",
+      "algo_type": 7,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "winhttp.dll",
+      "raw_hex": "770069006e0068007400740070002e0064006c006c000000"
+    },
+    {
+      "address": "0x0280F75B",
+      "func_address": "0x028119D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 8388608 (0x00800000)",
+      "raw_hex": "00008000"
+    },
+    {
+      "address": "0x0280F93B",
+      "func_address": "0x028117E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3011425148 (0xB37EB37C)",
+      "raw_hex": "7cb37eb3"
+    },
+    {
+      "address": "0x0280F97F",
+      "func_address": "0x028118B0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 300000 (0x000493E0)",
+      "raw_hex": "e0930400"
+    },
+    {
+      "address": "0x0280FC35",
+      "func_address": "0x02810C30",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 234,
+      "string": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.120 Safari/537.36",
+      "raw_hex": "4d006f007a0069006c006c0061002f0035002e00300020002800570069006e0064006f007700730020004e0054002000310030002e0030003b002000570069006e00360034003b002000780036003400290020004100700070006c0065005700650062004b00690074002f003500330037002e0033003600200028004b00480054004d004c002c0020006c0069006b00650020004700650063006b006f00290020004300680072006f006d0065002f003100300039002e0030002e0035003400310034002e0031003200300020005300610066006100720069002f003500330037002e00330036000000"
+    },
+    {
+      "address": "0x0280FDC0",
+      "func_address": "0x02811070",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 42,
+      "string": "Cookie: __cf_mw_byp=",
+      "raw_hex": "43006f006f006b00690065003a0020005f005f00630066005f006d0077005f006200790070003d000000"
+    },
+    {
+      "address": "0x0280FE3D",
+      "func_address": "0x02811110",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2684354560 (0xA0000000)",
+      "raw_hex": "000000a0"
+    },
+    {
+      "address": "0x0280FF9E",
+      "func_address": "0x028111A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 200 (0x000000C8)",
+      "raw_hex": "c8000000"
+    },
+    {
+      "address": "0x0280FFBB",
+      "func_address": "0x02811230",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 403 (0x00000193)",
+      "raw_hex": "93010000"
+    },
+    {
+      "address": "0x028103FF",
+      "func_address": "0x02810EC0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 443 (0x000001BB)",
+      "raw_hex": "bb010000"
+    },
+    {
+      "address": "0x02810483",
+      "func_address": "0x02810F50",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 8388864 (0x00800100)",
+      "raw_hex": "00018000"
+    },
+    {
+      "address": "0x028104AE",
+      "func_address": "0x02810FF0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": "POST",
+      "raw_hex": "50004f00530054000000"
+    },
+    {
+      "address": "0x0281068F",
+      "func_address": "0x028118B0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 300000 (0x000493E0)",
+      "raw_hex": "e0930400"
+    },
+    {
+      "address": "0x0281077D",
+      "func_address": "0x02810CB0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 128 (0x00000080)",
+      "raw_hex": "80000000"
+    },
+    {
+      "address": "0x0281090C",
+      "func_address": "0x02810D30",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 108,
+      "string": "https://steamcommunity.com/profiles/76561199880317058",
+      "raw_hex": "680074007400700073003a002f002f0073007400650061006d0063006f006d006d0075006e006900740079002e0063006f006d002f00700072006f00660069006c00650073002f00370036003500360031003100390039003800380030003300310037003000350038000000"
+    },
+    {
+      "address": "0x02810974",
+      "func_address": "0x02810DC0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 35,
+      "string": "<span class=\"actual_persona_name\">",
+      "raw_hex": "3c7370616e20636c6173733d2261637475616c5f706572736f6e615f6e616d65223e00"
+    },
+    {
+      "address": "0x028109CC",
+      "func_address": "0x02810E40",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "</span>",
+      "raw_hex": "3c2f7370616e3e00"
+    },
+    {
+      "address": "0x02810B84",
+      "func_address": "0x028112B0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "name=\"atok\" value=\"",
+      "raw_hex": "6e616d653d2261746f6b222076616c75653d2200"
+    },
+    {
+      "address": "0x02810BCF",
+      "func_address": "0x02811340",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "223e00",
+      "raw_hex": "223e00"
+    },
+    {
+      "address": "0x02811B62",
+      "func_address": "0x02818CC0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2147352576 (0x7FFE0000)",
+      "raw_hex": "0000fe7f"
+    },
+    {
+      "address": "0x02811BBA",
+      "func_address": "0x02818DF0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 6,
+      "string": "&cid=",
+      "raw_hex": "266369643d00"
+    },
+    {
+      "address": "0x02811BE5",
+      "func_address": "0x02818D60",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "uid=",
+      "raw_hex": "7569643d00"
+    },
+    {
+      "address": "0x02811DAB",
+      "func_address": "0x02818E80",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x028122CB",
+      "func_address": "0x02819DE0",
+      "encoding": "UTF-16LE",
+      "algo_type": 7,
+      "printable_ratio": 1.0,
+      "size": 124,
+      "string": "cmd.exe \"start /min cmd.exe \"/c timeout /t 3 /nobreak & del \"",
+      "raw_hex": "63006d0064002e00650078006500200022007300740061007200740020002f006d0069006e00200063006d0064002e00650078006500200022002f0063002000740069006d0065006f007500740020002f0074002000330020002f006e006f0062007200650061006b00200026002000640065006c00200022000000"
+    },
+    {
+      "address": "0x02812558",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2389544047 (0x8E6D8C6F)",
+      "raw_hex": "6f8c6d8e"
+    },
+    {
+      "address": "0x028126A7",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02812735",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02812769",
+      "func_address": "0x028192D0",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.25,
+      "size": 8,
+      "string": "f2666baaf1f1f1f1",
+      "raw_hex": "f2666baaf1f1f1f1"
+    },
+    {
+      "address": "0x028127E1",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02812840",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028128CF",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02812927",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02812A7D",
+      "func_address": "0x02819D60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.47,
+      "size": 100,
+      "string": "[BINARY 100 bytes]",
+      "raw_hex": "25003600340035000410111020103510020020002100300000300430013013302100340031003700261027101010251037003700370035001630073002300530350035003200340035102610331027102400250024001500223030303233303106070405"
+    },
+    {
+      "address": "0x02812AED",
+      "func_address": "0x02819CE0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 7,
+      "string": "&hwid=i",
+      "raw_hex": "26687769643d69"
+    },
+    {
+      "address": "0x02812B1F",
+      "func_address": "0x02819C60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 6,
+      "string": "a6e3e9e4bd80",
+      "raw_hex": "a6e3e9e4bd80"
+    },
+    {
+      "address": "0x02812B4A",
+      "func_address": "0x02819BB0",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "uid=",
+      "raw_hex": "7569643d00"
+    },
+    {
+      "address": "0x02812CA0",
+      "func_address": "0x028191D0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "\\??\\App",
+      "raw_hex": "5c003f003f005c004100700070000000"
+    },
+    {
+      "address": "0x02812D28",
+      "func_address": "0x02818F10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "1a1b18",
+      "raw_hex": "1a1b18"
+    },
+    {
+      "address": "0x02812D9B",
+      "func_address": "0x02819020",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "736500",
+      "raw_hex": "736500"
+    },
+    {
+      "address": "0x02812DED",
+      "func_address": "0x028190B0",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "dbg",
+      "raw_hex": "64626700"
+    },
+    {
+      "address": "0x028130E9",
+      "func_address": "0x02819D60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.47,
+      "size": 100,
+      "string": "[BINARY 100 bytes]",
+      "raw_hex": "25003600340035000410111020103510020020002100300000300430013013302100340031003700261027101010251037003700370035001630073002300530350035003200340035102610331027102400250024001500223030303233303106070405"
+    },
+    {
+      "address": "0x02813BF4",
+      "func_address": "0x02819B30",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 44,
+      "string": "www-form-urlencoded",
+      "raw_hex": "7700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x02813C1F",
+      "func_address": "0x02819470",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 6,
+      "string": "&msg=",
+      "raw_hex": "266d73673d00"
+    },
+    {
+      "address": "0x02813C49",
+      "func_address": "0x028193F0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 0.8571,
+      "size": 7,
+      "string": "&hwid=\ufffd",
+      "raw_hex": "26687769643dd0"
+    },
+    {
+      "address": "0x02813C74",
+      "func_address": "0x02819370",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "uid=",
+      "raw_hex": "7569643d00"
+    },
+    {
+      "address": "0x02813D62",
+      "func_address": "0x02819510",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "post",
+      "raw_hex": "706f737400"
+    },
+    {
+      "address": "0x02813EB2",
+      "func_address": "0x02819590",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x02813F44",
+      "func_address": "0x02819610",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "soft",
+      "raw_hex": "736f667400"
+    },
+    {
+      "address": "0x028140A1",
+      "func_address": "0x02819690",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x028140EE",
+      "func_address": "0x02819740",
+      "encoding": "UTF-8",
+      "algo_type": 5,
+      "printable_ratio": 0.8333,
+      "size": 6,
+      "string": "KL=9U\ufffd",
+      "raw_hex": "4b4c3d3955d8"
+    },
+    {
+      "address": "0x028141F7",
+      "func_address": "0x02819810",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x0281422E",
+      "func_address": "0x02819890",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "npp",
+      "raw_hex": "6e707000"
+    },
+    {
+      "address": "0x02814337",
+      "func_address": "0x02819910",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x02814380",
+      "func_address": "0x02819990",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "disc",
+      "raw_hex": "6469736300"
+    },
+    {
+      "address": "0x028144DC",
+      "func_address": "0x02819A20",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x02814530",
+      "func_address": "0x02819AB0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": "scrn",
+      "raw_hex": "7363726e00"
+    },
+    {
+      "address": "0x0281466B",
+      "func_address": "0x02819B30",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 100,
+      "string": "Content-Type: application/x-www-form-urlencoded",
+      "raw_hex": "43006f006e00740065006e0074002d0054007900700065003a0020006100700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x028146A9",
+      "func_address": "0x02818FA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "616400",
+      "raw_hex": "616400"
+    },
+    {
+      "address": "0x028146CE",
+      "func_address": "0x02818FA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "616400",
+      "raw_hex": "616400"
+    },
+    {
+      "address": "0x028147AA",
+      "func_address": "0x02819140",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x028149B1",
+      "func_address": "0x02819E70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 99 (0x0063)",
+      "raw_hex": "6300"
+    },
+    {
+      "address": "0x028149F9",
+      "func_address": "0x02819EF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "657800",
+      "raw_hex": "657800"
+    },
+    {
+      "address": "0x02814AD1",
+      "func_address": "0x02819F70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "657a00",
+      "raw_hex": "657a00"
+    },
+    {
+      "address": "0x02814B12",
+      "func_address": "0x02819FF0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "656e00",
+      "raw_hex": "656e00"
+    },
+    {
+      "address": "0x02814B81",
+      "func_address": "0x0281A080",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "ldb",
+      "raw_hex": "6c646200"
+    },
+    {
+      "address": "0x02814BD1",
+      "func_address": "0x0281A100",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "ses",
+      "raw_hex": "73657300"
+    },
+    {
+      "address": "0x02814CA4",
+      "func_address": "0x0281A1A0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "6d7800",
+      "raw_hex": "6d7800"
+    },
+    {
+      "address": "0x02814D7D",
+      "func_address": "0x0281A230",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "657a00",
+      "raw_hex": "657a00"
+    },
+    {
+      "address": "0x02814DB4",
+      "func_address": "0x0281A2B0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "656e00",
+      "raw_hex": "656e00"
+    },
+    {
+      "address": "0x02814E86",
+      "func_address": "0x0281A330",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 116 (0x0074)",
+      "raw_hex": "7400"
+    },
+    {
+      "address": "0x02814F0D",
+      "func_address": "0x0281A3E0",
+      "encoding": "binary",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 109 (0x006D)",
+      "raw_hex": "6d00"
+    },
+    {
+      "address": "0x02814F44",
+      "func_address": "0x0281A480",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 112 (0x0070)",
+      "raw_hex": "7000"
+    },
+    {
+      "address": "0x02814F7B",
+      "func_address": "0x0281A510",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 122 (0x007A)",
+      "raw_hex": "7a00"
+    },
+    {
+      "address": "0x02814FB2",
+      "func_address": "0x0281A590",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 100 (0x0064)",
+      "raw_hex": "6400"
+    },
+    {
+      "address": "0x02814FEE",
+      "func_address": "0x0281A610",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "667300",
+      "raw_hex": "667300"
+    },
+    {
+      "address": "0x02815074",
+      "func_address": "0x0281A690",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "666c00",
+      "raw_hex": "666c00"
+    },
+    {
+      "address": "0x0281514D",
+      "func_address": "0x0281A730",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x02815422",
+      "func_address": "0x0281A7B0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 109 (0x006D)",
+      "raw_hex": "6d00"
+    },
+    {
+      "address": "0x02815459",
+      "func_address": "0x0281A860",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 103 (0x0067)",
+      "raw_hex": "6700"
+    },
+    {
+      "address": "0x028154D1",
+      "func_address": "0x0281A970",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 122 (0x007A)",
+      "raw_hex": "7a00"
+    },
+    {
+      "address": "0x02815508",
+      "func_address": "0x0281AA00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 100 (0x0064)",
+      "raw_hex": "6400"
+    },
+    {
+      "address": "0x02815544",
+      "func_address": "0x0281AAB0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "667300",
+      "raw_hex": "667300"
+    },
+    {
+      "address": "0x0281567D",
+      "func_address": "0x0281AB30",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4096 (0x00001000)",
+      "raw_hex": "00100000"
+    },
+    {
+      "address": "0x02815799",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028157D8",
+      "func_address": "0x0281ABD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225476 (0xC0000004)",
+      "raw_hex": "040000c0"
+    },
+    {
+      "address": "0x028158F6",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02815C5E",
+      "func_address": "0x0281AC60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 112 (0x0070)",
+      "raw_hex": "7000"
+    },
+    {
+      "address": "0x02815C90",
+      "func_address": "0x0281ACF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 122 (0x007A)",
+      "raw_hex": "7a00"
+    },
+    {
+      "address": "0x02815D74",
+      "func_address": "0x0281AD80",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x02815E8B",
+      "func_address": "0x0281AE10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 102 (0x0066)",
+      "raw_hex": "6600"
+    },
+    {
+      "address": "0x02815F24",
+      "func_address": "0x0281AE90",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 110 (0x006E)",
+      "raw_hex": "6e00"
+    },
+    {
+      "address": "0x02815FB9",
+      "func_address": "0x0281AF10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 108 (0x006C)",
+      "raw_hex": "6c00"
+    },
+    {
+      "address": "0x02816062",
+      "func_address": "0x0281AFD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 104 (0x0068)",
+      "raw_hex": "6800"
+    },
+    {
+      "address": "0x0281618B",
+      "func_address": "0x0281B070",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 112 (0x0070)",
+      "raw_hex": "7000"
+    },
+    {
+      "address": "0x028161BD",
+      "func_address": "0x0281B0F0",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 58976 (0xE660)",
+      "raw_hex": "60e6"
+    },
+    {
+      "address": "0x028162A1",
+      "func_address": "0x0281B1B0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x028163B3",
+      "func_address": "0x0281B250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 104 (0x0068)",
+      "raw_hex": "6800"
+    },
+    {
+      "address": "0x028164B0",
+      "func_address": "0x0281B2E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 112 (0x0070)",
+      "raw_hex": "7000"
+    },
+    {
+      "address": "0x028164E2",
+      "func_address": "0x0281B360",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 118 (0x0076)",
+      "raw_hex": "7600"
+    },
+    {
+      "address": "0x0281651E",
+      "func_address": "0x0281B3E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 122 (0x007A)",
+      "raw_hex": "7a00"
+    },
+    {
+      "address": "0x02816748",
+      "func_address": "0x0281B470",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 1,
+      "string": "02",
+      "raw_hex": "02"
+    },
+    {
+      "address": "0x02816A30",
+      "func_address": "0x0281B500",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "667400",
+      "raw_hex": "667400"
+    },
+    {
+      "address": "0x02816A6A",
+      "func_address": "0x0281B590",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 29399 (0x72D7)",
+      "raw_hex": "d772"
+    },
+    {
+      "address": "0x02816B14",
+      "func_address": "0x0281B630",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 117 (0x0075)",
+      "raw_hex": "7500"
+    },
+    {
+      "address": "0x02816BBD",
+      "func_address": "0x0281B6C0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 100 (0x0064)",
+      "raw_hex": "6400"
+    },
+    {
+      "address": "0x02816C7E",
+      "func_address": "0x0281B740",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 112 (0x0070)",
+      "raw_hex": "7000"
+    },
+    {
+      "address": "0x02816D89",
+      "func_address": "0x0281B7D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x02816F3F",
+      "func_address": "0x0281B8D0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "%TEMP%\\",
+      "raw_hex": "2500540045004d00500025005c000000"
+    },
+    {
+      "address": "0x0281700F",
+      "func_address": "0x0281B950",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2092743903 (0x7CBCBCDF)",
+      "raw_hex": "dfbcbc7c"
+    },
+    {
+      "address": "0x0281705C",
+      "func_address": "0x0281B850",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 36 (0x00000024)",
+      "raw_hex": "24000000"
+    },
+    {
+      "address": "0x02817264",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02817299",
+      "func_address": "0x0281B9F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225525 (0xC0000035)",
+      "raw_hex": "350000c0"
+    },
+    {
+      "address": "0x02817485",
+      "func_address": "0x0281BA90",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 5,
+      "string": ".exe",
+      "raw_hex": "2e65786500"
+    },
+    {
+      "address": "0x028175F6",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028176AD",
+      "func_address": "0x0281BB10",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4 (0x00000004)",
+      "raw_hex": "04000000"
+    },
+    {
+      "address": "0x02817790",
+      "func_address": "0x0281BBA0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": ".exe",
+      "raw_hex": "2e006500780065000000"
+    },
+    {
+      "address": "0x028177FB",
+      "func_address": "0x0281BC30",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": ".dll",
+      "raw_hex": "2e0064006c006c000000"
+    },
+    {
+      "address": "0x02817866",
+      "func_address": "0x0281BCE0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": ".ps1",
+      "raw_hex": "2e007000730031000000"
+    },
+    {
+      "address": "0x028179C6",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2391772303 (0x8E8F8C8F)",
+      "raw_hex": "8f8c8f8e"
+    },
+    {
+      "address": "0x02817A45",
+      "func_address": "0x0281BD60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "666e00",
+      "raw_hex": "666e00"
+    },
+    {
+      "address": "0x02817A84",
+      "func_address": "0x0281BDF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "617200",
+      "raw_hex": "617200"
+    },
+    {
+      "address": "0x02817BFA",
+      "func_address": "0x0281BE70",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "rundll32 \"",
+      "raw_hex": "720075006e0064006c006c0033003200200022000000"
+    },
+    {
+      "address": "0x02817D6F",
+      "func_address": "0x0281BF90",
+      "encoding": "binary",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 34 (0x00000022)",
+      "raw_hex": "22000000"
+    },
+    {
+      "address": "0x02817E7E",
+      "func_address": "0x0281BF10",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 58,
+      "string": "powershell -exec bypass -f \"",
+      "raw_hex": "70006f007700650072007300680065006c006c0020002d006500780065006300200062007900700061007300730020002d006600200022000000"
+    },
+    {
+      "address": "0x0281808A",
+      "func_address": "0x0281C040",
+      "encoding": "UTF-16LE",
+      "algo_type": 6,
+      "printable_ratio": 1.0,
+      "size": 50,
+      "string": "powershell -exec bypass",
+      "raw_hex": "70006f007700650072007300680065006c006c0020002d006500780065006300200062007900700061007300730020000000"
+    },
+    {
+      "address": "0x02818222",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028182C6",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028183F2",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02818492",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028185DE",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02818685",
+      "func_address": "0x02819250",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02818852",
+      "func_address": "0x02818A70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x0281886D",
+      "func_address": "0x02818B00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x02818889",
+      "func_address": "0x02818B80",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x028188A1",
+      "func_address": "0x02818C00",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x0281C194",
+      "func_address": "0x0281C840",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 92 (0x005C)",
+      "raw_hex": "5c00"
+    },
+    {
+      "address": "0x0281C242",
+      "func_address": "0x0281C8D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 45233 (0xB0B1)",
+      "raw_hex": "b1b0"
+    },
+    {
+      "address": "0x0281C282",
+      "func_address": "0x0281C970",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 49086 (0xBFBE)",
+      "raw_hex": "bebf"
+    },
+    {
+      "address": "0x0281C2BF",
+      "func_address": "0x0281C9F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225539 (0xC0000043)",
+      "raw_hex": "430000c0"
+    },
+    {
+      "address": "0x0281C2D5",
+      "func_address": "0x0281CA70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3970739320 (0xECACAC78)",
+      "raw_hex": "78acacec"
+    },
+    {
+      "address": "0x0281C2EE",
+      "func_address": "0x0281CBA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 104 (0x00000068)",
+      "raw_hex": "68000000"
+    },
+    {
+      "address": "0x0281C302",
+      "func_address": "0x0281CB00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1411667156 (0x542454D4)",
+      "raw_hex": "d4542454"
+    },
+    {
+      "address": "0x0281C3AE",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281C478",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281C508",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281C584",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281C5EA",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281C648",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281C6C1",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3149642683 (0xBBBBBBBB)",
+      "raw_hex": "bbbbbbbb"
+    },
+    {
+      "address": "0x0281C820",
+      "func_address": "0x0281CC20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281CE27",
+      "func_address": "0x02824BC0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 142,
+      "string": "\\REGISTRY\\MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\",
+      "raw_hex": "5c00520045004700490053005400520059005c004d0041004300480049004e0045005c0053004f004600540057004100520045005c004d006900630072006f0073006f00660074005c00570069006e0064006f00770073005c00430075007200720065006e007400560065007200730069006f006e005c0055006e0069006e007300740061006c006c005c000000"
+    },
+    {
+      "address": "0x0281CED7",
+      "func_address": "0x02824C40",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 32,
+      "string": "InstallLocation",
+      "raw_hex": "49006e007300740061006c006c004c006f0063006100740069006f006e000000"
+    },
+    {
+      "address": "0x0281CF06",
+      "func_address": "0x02824CC0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7498762 (0x00726C0A)",
+      "raw_hex": "0a6c7200"
+    },
+    {
+      "address": "0x0281CFCB",
+      "func_address": "0x02824E00",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 32,
+      "string": "%ProgramFiles%\\",
+      "raw_hex": "2500500072006f006700720061006d00460069006c006500730025005c000000"
+    },
+    {
+      "address": "0x0281D0BE",
+      "func_address": "0x02824EC0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 31610 (0x7B7A)",
+      "raw_hex": "7a7b"
+    },
+    {
+      "address": "0x0281D112",
+      "func_address": "0x02824F60",
+      "encoding": "Layer2(sep=0x38,add=0x31)",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 28,
+      "string": "\\OPPLGmodGIJ\\",
+      "raw_hex": "8c387938883888387c3871389b389938943871387f387e388c383838"
+    },
+    {
+      "address": "0x0281D1D3",
+      "func_address": "0x02825020",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x0281D241",
+      "func_address": "0x02824D50",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 56798 (0xDDDE)",
+      "raw_hex": "dedd"
+    },
+    {
+      "address": "0x0281D2F0",
+      "func_address": "0x028250A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7171082 (0x006D6C0A)",
+      "raw_hex": "0a6c6d00"
+    },
+    {
+      "address": "0x0281D38A",
+      "func_address": "0x02825130",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 32,
+      "string": "%ProgramW6432%\\",
+      "raw_hex": "2500500072006f006700720061006d005700360034003300320025005c000000"
+    },
+    {
+      "address": "0x0281D47E",
+      "func_address": "0x02825210",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 62707 (0xF4F3)",
+      "raw_hex": "f3f4"
+    },
+    {
+      "address": "0x0281D4D2",
+      "func_address": "0x028252C0",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 28,
+      "string": "\\Application\\",
+      "raw_hex": "5c004100700070006c00690063006100740069006f006e005c000000"
+    },
+    {
+      "address": "0x0281D592",
+      "func_address": "0x02825360",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x0281D600",
+      "func_address": "0x028253F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6384650 (0x00616C0A)",
+      "raw_hex": "0a6c6100"
+    },
+    {
+      "address": "0x0281D708",
+      "func_address": "0x02825470",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 26,
+      "string": "\\Local State",
+      "raw_hex": "5c004c006f00630061006c002000530074006100740065000000"
+    },
+    {
+      "address": "0x0281D8AA",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281D8D8",
+      "func_address": "0x028254F0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 9,
+      "string": "os_crypt",
+      "raw_hex": "6f735f637279707400"
+    },
+    {
+      "address": "0x0281D91B",
+      "func_address": "0x02825580",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 14,
+      "string": "encrypted_key",
+      "raw_hex": "656e637279707465645f6b657900"
+    },
+    {
+      "address": "0x0281D9B1",
+      "func_address": "0x02822EF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x0281D9CB",
+      "func_address": "0x02822F70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x0281D9F4",
+      "func_address": "0x02822FF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x0281DA0F",
+      "func_address": "0x02823090",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x0281DC0D",
+      "func_address": "0x02825680",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "app_bound_encrypted_key",
+      "raw_hex": "6170705f626f756e645f656e637279707465645f6b657900"
+    },
+    {
+      "address": "0x0281DCB9",
+      "func_address": "0x02825720",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7628298 (0x0074660A)",
+      "raw_hex": "0a667400"
+    },
+    {
+      "address": "0x0281DDF5",
+      "func_address": "0x028258E0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5000 (0x00001388)",
+      "raw_hex": "88130000"
+    },
+    {
+      "address": "0x0281DE43",
+      "func_address": "0x028257C0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7561738 (0x0073620A)",
+      "raw_hex": "0a627300"
+    },
+    {
+      "address": "0x0281DE97",
+      "func_address": "0x028257C0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7561738 (0x0073620A)",
+      "raw_hex": "0a627300"
+    },
+    {
+      "address": "0x0281DF0E",
+      "func_address": "0x02825600",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "/dp.txt",
+      "raw_hex": "2f00640070002e007400780074000000"
+    },
+    {
+      "address": "0x0281E0DF",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E15B",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E1BA",
+      "func_address": "0x02825D60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7561482 (0x0073610A)",
+      "raw_hex": "0a617300"
+    },
+    {
+      "address": "0x0281E20F",
+      "func_address": "0x02825DE0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6381834 (0x0061610A)",
+      "raw_hex": "0a616100"
+    },
+    {
+      "address": "0x0281E23B",
+      "func_address": "0x02825E70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5000 (0x00001388)",
+      "raw_hex": "88130000"
+    },
+    {
+      "address": "0x0281E2EB",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E44E",
+      "func_address": "0x02825A80",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "&token=",
+      "raw_hex": "260074006f006b0065006e003d000000"
+    },
+    {
+      "address": "0x0281E4E6",
+      "func_address": "0x02825B30",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 28,
+      "string": "&description=",
+      "raw_hex": "26006400650073006300720069007000740069006f006e003d000000"
+    },
+    {
+      "address": "0x0281E573",
+      "func_address": "0x02825BD0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "&agent=",
+      "raw_hex": "26006100670065006e0074003d000000"
+    },
+    {
+      "address": "0x0281E714",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E76B",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E7C0",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E815",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E844",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E8DC",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281E9BA",
+      "func_address": "0x02825C50",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7499786 (0x0072700A)",
+      "raw_hex": "0a707200"
+    },
+    {
+      "address": "0x0281E9F8",
+      "func_address": "0x02825C50",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7499786 (0x0072700A)",
+      "raw_hex": "0a707200"
+    },
+    {
+      "address": "0x0281EA3F",
+      "func_address": "0x02825CD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6516746 (0x0063700A)",
+      "raw_hex": "0a706300"
+    },
+    {
+      "address": "0x0281EAE8",
+      "func_address": "0x02825960",
+      "encoding": "binary",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 6,
+      "string": "220020000000",
+      "raw_hex": "220020000000"
+    },
+    {
+      "address": "0x0281EBBD",
+      "func_address": "0x02825A00",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 38,
+      "string": "/api/set_agent?id=",
+      "raw_hex": "2f006100700069002f007300650074005f006100670065006e0074003f00690064003d000000"
+    },
+    {
+      "address": "0x0281EC54",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281ECB4",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281ED4B",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281EDCA",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281EE50",
+      "func_address": "0x02825EF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6907402 (0x0069660A)",
+      "raw_hex": "0a666900"
+    },
+    {
+      "address": "0x0281EEB6",
+      "func_address": "0x02825F70",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "/Debug.txt",
+      "raw_hex": "2f00440065006200750067002e007400780074000000"
+    },
+    {
+      "address": "0x0281EFBB",
+      "func_address": "0x02825FF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5 (0x00000005)",
+      "raw_hex": "05000000"
+    },
+    {
+      "address": "0x0281F01A",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281F043",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281F060",
+      "func_address": "0x02825FF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5 (0x00000005)",
+      "raw_hex": "05000000"
+    },
+    {
+      "address": "0x0281F1A1",
+      "func_address": "0x02826070",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5 (0x00000005)",
+      "raw_hex": "05000000"
+    },
+    {
+      "address": "0x0281F262",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281F31D",
+      "func_address": "0x02826100",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5 (0x00000005)",
+      "raw_hex": "05000000"
+    },
+    {
+      "address": "0x0281F38A",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281F412",
+      "func_address": "0x028261A0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "ncrypt.dll",
+      "raw_hex": "6e00630072007900700074002e0064006c006c000000"
+    },
+    {
+      "address": "0x0281F43B",
+      "func_address": "0x02826220",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2423555758 (0x907486AE)",
+      "raw_hex": "ae867490"
+    },
+    {
+      "address": "0x0281F462",
+      "func_address": "0x02826340",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2048 (0x00000800)",
+      "raw_hex": "00080000"
+    },
+    {
+      "address": "0x0281F4A0",
+      "func_address": "0x028262B0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "ncrypt.dll",
+      "raw_hex": "6e00630072007900700074002e0064006c006c000000"
+    },
+    {
+      "address": "0x0281F5BD",
+      "func_address": "0x028263C0",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 80,
+      "string": "Microsoft Software Key Storage Provider",
+      "raw_hex": "4d006900630072006f0073006f0066007400200053006f0066007400770061007200650020004b00650079002000530074006f0072006100670065002000500072006f00760069006400650072000000"
+    },
+    {
+      "address": "0x0281F66A",
+      "func_address": "0x02826480",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 36,
+      "string": "Google Chromekey1",
+      "raw_hex": "47006f006f0067006c00650020004300680072006f006d0065006b006500790031000000"
+    },
+    {
+      "address": "0x0281F77A",
+      "func_address": "0x02826500",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5 (0x00000005)",
+      "raw_hex": "05000000"
+    },
+    {
+      "address": "0x0281F7DC",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281F84B",
+      "func_address": "0x028265A0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "/ab.txt",
+      "raw_hex": "2f00610062002e007400780074000000"
+    },
+    {
+      "address": "0x0281F96A",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0281F9B6",
+      "func_address": "0x028266B0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 11,
+      "string": "info_cache",
+      "raw_hex": "696e666f5f636163686500"
+    },
+    {
+      "address": "0x0281F9D5",
+      "func_address": "0x02826620",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "profile",
+      "raw_hex": "70726f66696c6500"
+    },
+    {
+      "address": "0x0281FA37",
+      "func_address": "0x028267C0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "Default",
+      "raw_hex": "440065006600610075006c0074000000"
+    },
+    {
+      "address": "0x0281FC02",
+      "func_address": "0x02826740",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 20561 (0x5051)",
+      "raw_hex": "5150"
+    },
+    {
+      "address": "0x0281FD62",
+      "func_address": "0x02826740",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 20561 (0x5051)",
+      "raw_hex": "5150"
+    },
+    {
+      "address": "0x0281FF59",
+      "func_address": "0x02826840",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 28,
+      "string": "\\Last Version",
+      "raw_hex": "5c004c006100730074002000560065007200730069006f006e000000"
+    },
+    {
+      "address": "0x0282013B",
+      "func_address": "0x028268D0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 40,
+      "string": "/BrowserVersion.txt",
+      "raw_hex": "2f00420072006f007700730065007200560065007200730069006f006e002e007400780074000000"
+    },
+    {
+      "address": "0x0282023E",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02820412",
+      "func_address": "0x02823560",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6386186 (0x0061720A)",
+      "raw_hex": "0a726100"
+    },
+    {
+      "address": "0x02820609",
+      "func_address": "0x028235E0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 21,
+      "string": "B9%????4rnO/@NQe?Nx*",
+      "raw_hex": "4239253f3f3f3f34726e4f2f404e51653f4e782a00"
+    },
+    {
+      "address": "0x0282065A",
+      "func_address": "0x02823660",
+      "encoding": "shellcode",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 21,
+      "string": "[SHELLCODE (x64) 21 bytes]",
+      "raw_hex": "488d0556018518488901488b0248894199488d4100"
+    },
+    {
+      "address": "0x028206FF",
+      "func_address": "0x028236F0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "dpapi.dll",
+      "raw_hex": "640070006100700069002e0064006c006c000000"
+    },
+    {
+      "address": "0x02820804",
+      "func_address": "0x02823780",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6713866 (0x0066720A)",
+      "raw_hex": "0a726600"
+    },
+    {
+      "address": "0x02820867",
+      "func_address": "0x02823820",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7893514 (0x0078720A)",
+      "raw_hex": "0a727800"
+    },
+    {
+      "address": "0x028208DD",
+      "func_address": "0x028238C0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7172618 (0x006D720A)",
+      "raw_hex": "0a726d00"
+    },
+    {
+      "address": "0x02820996",
+      "func_address": "0x02823AD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7369226 (0x0070720A)",
+      "raw_hex": "0a727000"
+    },
+    {
+      "address": "0x02820A1C",
+      "func_address": "0x02823B60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 7762442 (0x0076720A)",
+      "raw_hex": "0a727600"
+    },
+    {
+      "address": "0x02820AEF",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02820B1F",
+      "func_address": "0x02823CA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "48be00",
+      "raw_hex": "48be00"
+    },
+    {
+      "address": "0x02820B75",
+      "func_address": "0x02823D20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "48bf00",
+      "raw_hex": "48bf00"
+    },
+    {
+      "address": "0x02820BC5",
+      "func_address": "0x02823DA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "48b900",
+      "raw_hex": "48b900"
+    },
+    {
+      "address": "0x02820C15",
+      "func_address": "0x02823E20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "f3a400",
+      "raw_hex": "f3a400"
+    },
+    {
+      "address": "0x02820C5D",
+      "func_address": "0x02823EA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "48b900",
+      "raw_hex": "48b900"
+    },
+    {
+      "address": "0x02820CA0",
+      "func_address": "0x02823F40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 186 (0x00BA)",
+      "raw_hex": "ba00"
+    },
+    {
+      "address": "0x02820CF1",
+      "func_address": "0x02823FC0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.4,
+      "size": 5,
+      "string": "5df9e80128",
+      "raw_hex": "5df9e80128"
+    },
+    {
+      "address": "0x02820D48",
+      "func_address": "0x02824050",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 3,
+      "string": "48b800",
+      "raw_hex": "48b800"
+    },
+    {
+      "address": "0x02820D8C",
+      "func_address": "0x028240E0",
+      "encoding": "UTF-8",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "d+ [",
+      "raw_hex": "642b205b"
+    },
+    {
+      "address": "0x02820DCE",
+      "func_address": "0x02824170",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": ",TY*",
+      "raw_hex": "2c54592a"
+    },
+    {
+      "address": "0x02820E7C",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02820F22",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282107B",
+      "func_address": "0x02824200",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 17,
+      "string": "NtCreateThreadEx",
+      "raw_hex": "4e74437265617465546872656164457800"
+    },
+    {
+      "address": "0x0282111C",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028211DC",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282128B",
+      "func_address": "0x02824380",
+      "encoding": "UTF-8",
+      "algo_type": 8,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "NtFreeVirtualMemory",
+      "raw_hex": "4e74467265655669727475616c4d656d6f727900"
+    },
+    {
+      "address": "0x0282135F",
+      "func_address": "0x02824410",
+      "encoding": "UTF-8",
+      "algo_type": 7,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "NtFreeVirtualMemory",
+      "raw_hex": "4e74467265655669727475616c4d656d6f727900"
+    },
+    {
+      "address": "0x028213B2",
+      "func_address": "0x028244A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6582794 (0x0064720A)",
+      "raw_hex": "0a726400"
+    },
+    {
+      "address": "0x0282144C",
+      "func_address": "0x02824530",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "/ab.txt",
+      "raw_hex": "2f00610062002e007400780074000000"
+    },
+    {
+      "address": "0x02821529",
+      "func_address": "0x028245B0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 34,
+      "string": "ChromeBuildTools",
+      "raw_hex": "4300680072006f006d0065004200750069006c00640054006f006f006c0073000000"
+    },
+    {
+      "address": "0x02821636",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821651",
+      "func_address": "0x02824640",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225596 (0xC000007C)",
+      "raw_hex": "7c0000c0"
+    },
+    {
+      "address": "0x028216A6",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821718",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282172F",
+      "func_address": "0x028246D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x028217AD",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821811",
+      "func_address": "0x02824770",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2423555758 (0x907486AE)",
+      "raw_hex": "ae867490"
+    },
+    {
+      "address": "0x02821863",
+      "func_address": "0x02824800",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 26,
+      "string": "advapi32.dll",
+      "raw_hex": "610064007600610070006900330032002e0064006c006c000000"
+    },
+    {
+      "address": "0x0282190E",
+      "func_address": "0x02824890",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 46,
+      "string": "SeImpersonatePrivilege",
+      "raw_hex": "5300650049006d0070006500720073006f006e00610074006500500072006900760069006c006500670065000000"
+    },
+    {
+      "address": "0x028219B4",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028219CB",
+      "func_address": "0x02824990",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2085883618 (0x7C540EE2)",
+      "raw_hex": "e20e547c"
+    },
+    {
+      "address": "0x02821A30",
+      "func_address": "0x02824910",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4241788514 (0xFCD48E62)",
+      "raw_hex": "628ed4fc"
+    },
+    {
+      "address": "0x02821AA5",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821AD4",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821B3C",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821B4F",
+      "func_address": "0x02824A20",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225476 (0xC0000004)",
+      "raw_hex": "040000c0"
+    },
+    {
+      "address": "0x02821BC8",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821C87",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821CED",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821D00",
+      "func_address": "0x02824AA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x02821D80",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821E1A",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02821E2D",
+      "func_address": "0x02824B40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x02821EAD",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282207F",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2391772301 (0x8E8F8C8D)",
+      "raw_hex": "8d8c8f8e"
+    },
+    {
+      "address": "0x02822100",
+      "func_address": "0x02823C10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02822188",
+      "func_address": "0x02826950",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "History",
+      "raw_hex": "48006900730074006f00720079000000"
+    },
+    {
+      "address": "0x028221D6",
+      "func_address": "0x028269D0",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "Login Data",
+      "raw_hex": "4c006f00670069006e00200044006100740061000000"
+    },
+    {
+      "address": "0x02822267",
+      "func_address": "0x02826A60",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 46,
+      "string": "Login Data For Account",
+      "raw_hex": "4c006f00670069006e0020004400610074006100200046006f00720020004100630063006f0075006e0074000000"
+    },
+    {
+      "address": "0x028222FE",
+      "func_address": "0x02826B10",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 32,
+      "string": "Network\\Cookies",
+      "raw_hex": "4e006500740077006f0072006b005c0043006f006f006b006900650073000000"
+    },
+    {
+      "address": "0x02822359",
+      "func_address": "0x02826B90",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "Web Data",
+      "raw_hex": "570065006200200044006100740061000000"
+    },
+    {
+      "address": "0x02822486",
+      "func_address": "0x02822EF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x028224A7",
+      "func_address": "0x02822F70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x028224CA",
+      "func_address": "0x02822FF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x028224E9",
+      "func_address": "0x02823090",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x02822608",
+      "func_address": "0x02826C30",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 47 (0x002F)",
+      "raw_hex": "2f00"
+    },
+    {
+      "address": "0x02822652",
+      "func_address": "0x02826CB0",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 26,
+      "string": "/Extensions/",
+      "raw_hex": "2f0045007800740065006e00730069006f006e0073002f000000"
+    },
+    {
+      "address": "0x0282279A",
+      "func_address": "0x02822EF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x028227BD",
+      "func_address": "0x02822F70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x028227E9",
+      "func_address": "0x02822FF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x02822808",
+      "func_address": "0x02823090",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x0282290F",
+      "func_address": "0x02826D40",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 54,
+      "string": "\\Local Extension Settings\\",
+      "raw_hex": "5c004c006f00630061006c00200045007800740065006e00730069006f006e002000530065007400740069006e00670073005c000000"
+    },
+    {
+      "address": "0x028229B3",
+      "func_address": "0x02826DD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02822AA4",
+      "func_address": "0x02826E60",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 52,
+      "string": "\\Sync Extension Settings\\",
+      "raw_hex": "5c00530079006e006300200045007800740065006e00730069006f006e002000530065007400740069006e00670073005c000000"
+    },
+    {
+      "address": "0x02822B63",
+      "func_address": "0x02826F00",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 12,
+      "string": "/Sync",
+      "raw_hex": "2f00530079006e0063000000"
+    },
+    {
+      "address": "0x02822BA3",
+      "func_address": "0x02826F80",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02822C86",
+      "func_address": "0x02827080",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 42,
+      "string": "_0.indexeddb.leveldb",
+      "raw_hex": "5f0030002e0069006e0064006500780065006400640062002e006c006500760065006c00640062000000"
+    },
+    {
+      "address": "0x02822D0C",
+      "func_address": "0x02827000",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 58,
+      "string": "\\IndexedDB\\chrome-extension_",
+      "raw_hex": "5c0049006e0064006500780065006400440042005c006300680072006f006d0065002d0065007800740065006e00730069006f006e005f000000"
+    },
+    {
+      "address": "0x02822E02",
+      "func_address": "0x02827100",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "/LevelDB",
+      "raw_hex": "2f004c006500760065006c00440042000000"
+    },
+    {
+      "address": "0x02822E45",
+      "func_address": "0x028271B0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02823135",
+      "func_address": "0x02823250",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "40",
+      "raw_hex": "40"
+    },
+    {
+      "address": "0x0282338A",
+      "func_address": "0x02824280",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x02823448",
+      "func_address": "0x02824300",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2d",
+      "raw_hex": "2d"
+    },
+    {
+      "address": "0x028239C5",
+      "func_address": "0x02823A40",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "v20",
+      "raw_hex": "76323000"
+    },
+    {
+      "address": "0x02827283",
+      "func_address": "0x02829320",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02827343",
+      "func_address": "0x028293C0",
+      "encoding": "UTF-16LE",
+      "algo_type": 9,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "key4.db",
+      "raw_hex": "6b006500790034002e00640062000000"
+    },
+    {
+      "address": "0x028273CF",
+      "func_address": "0x02829470",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "cert9.db",
+      "raw_hex": "630065007200740039002e00640062000000"
+    },
+    {
+      "address": "0x02828900",
+      "func_address": "0x028290A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x02828921",
+      "func_address": "0x02829130",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 1,
+      "string": "d9",
+      "raw_hex": "d9"
+    },
+    {
+      "address": "0x02828942",
+      "func_address": "0x028291F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3d",
+      "raw_hex": "3d"
+    },
+    {
+      "address": "0x02828AE2",
+      "func_address": "0x02829980",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 6683 (0x1A1B)",
+      "raw_hex": "1b1a"
+    },
+    {
+      "address": "0x02828BF5",
+      "func_address": "0x02829A90",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 60,
+      "string": "^userContextId=4294967295\\idb",
+      "raw_hex": "5e00750073006500720043006f006e007400650078007400490064003d0034003200390034003900360037003200390035005c006900640062000000"
+    },
+    {
+      "address": "0x02828C8C",
+      "func_address": "0x02829A10",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 68,
+      "string": "\\storage\\default\\moz-extension+++",
+      "raw_hex": "5c00730074006f0072006100670065005c00640065006600610075006c0074005c006d006f007a002d0065007800740065006e00730069006f006e002b002b002b000000"
+    },
+    {
+      "address": "0x02828D63",
+      "func_address": "0x02829B90",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1 (0x00000001)",
+      "raw_hex": "01000000"
+    },
+    {
+      "address": "0x02828D7A",
+      "func_address": "0x02829B10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02828F4E",
+      "func_address": "0x02829010",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "\\key4.db",
+      "raw_hex": "5c006b006500790034002e00640062000000"
+    },
+    {
+      "address": "0x02829C87",
+      "func_address": "0x0282B350",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 12,
+      "string": "*.lnk",
+      "raw_hex": "2a002e006c006e006b000000"
+    },
+    {
+      "address": "0x02829CD9",
+      "func_address": "0x0282B470",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02829E8D",
+      "func_address": "0x0282B3D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02829F01",
+      "func_address": "0x0282B500",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1717985996 (0x666662CC)",
+      "raw_hex": "cc626666"
+    },
+    {
+      "address": "0x02829F58",
+      "func_address": "0x0282B5A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 6,
+      "string": "2e002e000000",
+      "raw_hex": "2e002e000000"
+    },
+    {
+      "address": "0x0282A092",
+      "func_address": "0x0282B630",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 67840 (0x00010900)",
+      "raw_hex": "00090100"
+    },
+    {
+      "address": "0x0282A1AE",
+      "func_address": "0x0282B3D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282A1E2",
+      "func_address": "0x0282B6C0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2147483653 (0x80000005)",
+      "raw_hex": "05000080"
+    },
+    {
+      "address": "0x0282A31B",
+      "func_address": "0x0282B3D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282A415",
+      "func_address": "0x0282A780",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "ole32.dll",
+      "raw_hex": "6f006c006500330032002e0064006c006c000000"
+    },
+    {
+      "address": "0x0282A448",
+      "func_address": "0x0282A810",
+      "encoding": "GUID",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{00021401-0000-0000-C000-000000000046} (ShellLink CLSID)",
+      "raw_hex": "0114020000000000c000000000000046"
+    },
+    {
+      "address": "0x0282A48C",
+      "func_address": "0x0282A8A0",
+      "encoding": "GUID",
+      "algo_type": 10,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{000214F9-0000-0000-C000-000000000046} (IShellLinkA)",
+      "raw_hex": "f914020000000000c000000000000046"
+    },
+    {
+      "address": "0x0282A4D0",
+      "func_address": "0x0282A930",
+      "encoding": "GUID",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{0000010B-0000-0000-C000-000000000046} (IPersistFile)",
+      "raw_hex": "0b01000000000000c000000000000046"
+    },
+    {
+      "address": "0x0282A5E2",
+      "func_address": "0x0282A9B0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 34439 (0x8687)",
+      "raw_hex": "8786"
+    },
+    {
+      "address": "0x0282A6D2",
+      "func_address": "0x0282AA40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 63478 (0xF7F6)",
+      "raw_hex": "f6f7"
+    },
+    {
+      "address": "0x0282AB18",
+      "func_address": "0x0282AE20",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": "LOCK",
+      "raw_hex": "4c004f0043004b000000"
+    },
+    {
+      "address": "0x0282AC2C",
+      "func_address": "0x0282AEB0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225539 (0xC0000043)",
+      "raw_hex": "430000c0"
+    },
+    {
+      "address": "0x0282AC45",
+      "func_address": "0x0282AF50",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225556 (0xC0000054)",
+      "raw_hex": "540000c0"
+    },
+    {
+      "address": "0x0282AC5E",
+      "func_address": "0x0282AFE0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5000 (0x00001388)",
+      "raw_hex": "88130000"
+    },
+    {
+      "address": "0x0282AD42",
+      "func_address": "0x0282B060",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 19274 (0x4B4A)",
+      "raw_hex": "4a4b"
+    },
+    {
+      "address": "0x0282AE07",
+      "func_address": "0x0282B3D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282B196",
+      "func_address": "0x0282B2C0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 19533 (0x4C4D)",
+      "raw_hex": "4d4c"
+    },
+    {
+      "address": "0x0282B7A7",
+      "func_address": "0x0282DE80",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4244635136 (0xFCFFFE00)",
+      "raw_hex": "00fefffc"
+    },
+    {
+      "address": "0x0282C1BF",
+      "func_address": "0x0282DFD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 332 (0x0000014C)",
+      "raw_hex": "4c010000"
+    },
+    {
+      "address": "0x0282C6EA",
+      "func_address": "0x0282E310",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282CD05",
+      "func_address": "0x0282E1F0",
+      "encoding": "UTF-16BE",
+      "algo_type": 11,
+      "printable_ratio": 1.0,
+      "size": 71,
+      "string": "pplication/x-www-form-urlencoded",
+      "raw_hex": "00700070006c00690063006100740069006f006e002f0078002d007700770077002d0066006f0072006d002d00750072006c0065006e0063006f006400650064000d000a000000"
+    },
+    {
+      "address": "0x0282CF8B",
+      "func_address": "0x0282E280",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 12288 (0x00003000)",
+      "raw_hex": "00300000"
+    },
+    {
+      "address": "0x0282D078",
+      "func_address": "0x0282E310",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282D33D",
+      "func_address": "0x0282E310",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0282D415",
+      "func_address": "0x0282E3B0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1 (0x00000001)",
+      "raw_hex": "01000000"
+    },
+    {
+      "address": "0x0282E486",
+      "func_address": "0x02830960",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 26,
+      "string": "LocalAppData",
+      "raw_hex": "4c006f00630061006c0041007000700044006100740061000000"
+    },
+    {
+      "address": "0x0282E4D6",
+      "func_address": "0x028309E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x0282E59E",
+      "func_address": "0x02830A70",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "\\Packages",
+      "raw_hex": "5c005000610063006b0061006700650073000000"
+    },
+    {
+      "address": "0x0282E6F8",
+      "func_address": "0x02830B90",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 76,
+      "string": "\\Microsoft\\Windows Mail\\Local Folders",
+      "raw_hex": "5c004d006900630072006f0073006f00660074005c00570069006e0064006f007700730020004d00610069006c005c004c006f00630061006c00200046006f006c0064006500720073000000"
+    },
+    {
+      "address": "0x0282E7C1",
+      "func_address": "0x02830C90",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 12,
+      "string": "*.eml",
+      "raw_hex": "2a002e0065006d006c000000"
+    },
+    {
+      "address": "0x0282E84F",
+      "func_address": "0x02830C10",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 62,
+      "string": "Mails/Windows Mail Alternative",
+      "raw_hex": "4d00610069006c0073002f00570069006e0064006f007700730020004d00610069006c00200041006c007400650072006e00610074006900760065000000"
+    },
+    {
+      "address": "0x0282E93E",
+      "func_address": "0x02830B00",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 74,
+      "string": "microsoft.windowscommunicationsapps*",
+      "raw_hex": "6d006900630072006f0073006f00660074002e00770069006e0064006f007700730063006f006d006d0075006e00690063006100740069006f006e00730061007000700073002a000000"
+    },
+    {
+      "address": "0x0282E9FA",
+      "func_address": "0x02830B00",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 74,
+      "string": "microsoft.windowscommunicationsapps*",
+      "raw_hex": "6d006900630072006f0073006f00660074002e00770069006e0064006f007700730063006f006d006d0075006e00690063006100740069006f006e00730061007000700073002a000000"
+    },
+    {
+      "address": "0x0282EABE",
+      "func_address": "0x02830D30",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 62,
+      "string": "%AppData%\\Thunderbird\\Profiles",
+      "raw_hex": "2500410070007000440061007400610025005c005400680075006e0064006500720062006900720064005c00500072006f00660069006c00650073000000"
+    },
+    {
+      "address": "0x0282EB0E",
+      "func_address": "0x02830DC0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225507 (0xC0000023)",
+      "raw_hex": "230000c0"
+    },
+    {
+      "address": "0x0282EB99",
+      "func_address": "0x02830E40",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "Thunderbird",
+      "raw_hex": "5400680075006e0064006500720062006900720064000000"
+    },
+    {
+      "address": "0x0282ECBF",
+      "func_address": "0x02830FD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 131097 (0x00020019)",
+      "raw_hex": "19000200"
+    },
+    {
+      "address": "0x0282EE2F",
+      "func_address": "0x02831060",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 162,
+      "string": "Microsoft\\Windows Messaging Subsystem\\Profiles\\9375CFF0413111d3B88A00104B2A6676\\",
+      "raw_hex": "4d006900630072006f0073006f00660074005c00570069006e0064006f007700730020004d006500730073006100670069006e0067002000530075006200730079007300740065006d005c00500072006f00660069006c00650073005c00390033003700350043004600460030003400310033003100310031006400330042003800380041003000300031003000340042003200410036003600370036005c000000"
+    },
+    {
+      "address": "0x0282F045",
+      "func_address": "0x028310F0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 230,
+      "string": "Microsoft\\Windows NT\\CurrentVersion\\Windows Messaging Subsystem\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+      "raw_hex": "4d006900630072006f0073006f00660074005c00570069006e0064006f007700730020004e0054005c00430075007200720065006e007400560065007200730069006f006e005c00570069006e0064006f007700730020004d006500730073006100670069006e0067002000530075006200730079007300740065006d005c00500072006f00660069006c00650073005c004f00750074006c006f006f006b005c00390033003700350043004600460030003400310033003100310031006400330042003800380041003000300031003000340042003200410036003600370036005c000000"
+    },
+    {
+      "address": "0x0282F1B1",
+      "func_address": "0x02831190",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 162,
+      "string": "Microsoft\\Office\\13.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+      "raw_hex": "4d006900630072006f0073006f00660074005c004f00660066006900630065005c00310033002e0030005c004f00750074006c006f006f006b005c00500072006f00660069006c00650073005c004f00750074006c006f006f006b005c00390033003700350043004600460030003400310033003100310031006400330042003800380041003000300031003000340042003200410036003600370036005c000000"
+    },
+    {
+      "address": "0x0282F4D2",
+      "func_address": "0x02831220",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 162,
+      "string": "Microsoft\\Office\\14.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+      "raw_hex": "4d006900630072006f0073006f00660074005c004f00660066006900630065005c00310034002e0030005c004f00750074006c006f006f006b005c00500072006f00660069006c00650073005c004f00750074006c006f006f006b005c00390033003700350043004600460030003400310033003100310031006400330042003800380041003000300031003000340042003200410036003600370036005c000000"
+    },
+    {
+      "address": "0x0282F7F3",
+      "func_address": "0x028312B0",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 162,
+      "string": "Microsoft\\Office\\15.0\\Outlook\\Profiles\\Outlook\\9375CFF0413111d3B88A00104B2A6676\\",
+      "raw_hex": "4d006900630072006f0073006f00660074005c004f00660066006900630065005c00310035002e0030005c004f00750074006c006f006f006b005c00500072006f00660069006c00650073005c004f00750074006c006f006f006b005c00390033003700350043004600460030003400310033003100310031006400330042003800380041003000300031003000340042003200410036003600370036005c000000"
+    },
+    {
+      "address": "0x0282F8F0",
+      "func_address": "0x02831370",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "0000000X",
+      "raw_hex": "300030003000300030003000300058000000"
+    },
+    {
+      "address": "0x0282F999",
+      "func_address": "0x02831370",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "0000000X",
+      "raw_hex": "300030003000300030003000300058000000"
+    },
+    {
+      "address": "0x0282FA5A",
+      "func_address": "0x028313F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 131097 (0x00020019)",
+      "raw_hex": "19000200"
+    },
+    {
+      "address": "0x0282FAA0",
+      "func_address": "0x02831470",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2048 (0x00000800)",
+      "raw_hex": "00080000"
+    },
+    {
+      "address": "0x0282FAB6",
+      "func_address": "0x02831520",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1024 (0x00000400)",
+      "raw_hex": "00040000"
+    },
+    {
+      "address": "0x0282FAD7",
+      "func_address": "0x02831470",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2048 (0x00000800)",
+      "raw_hex": "00080000"
+    },
+    {
+      "address": "0x0282FAED",
+      "func_address": "0x02831520",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1024 (0x00000400)",
+      "raw_hex": "00040000"
+    },
+    {
+      "address": "0x0282FB9C",
+      "func_address": "0x028315A0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "Account",
+      "raw_hex": "4100630063006f0075006e0074000000"
+    },
+    {
+      "address": "0x0282FC48",
+      "func_address": "0x02831620",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "Password",
+      "raw_hex": "500061007300730077006f00720064000000"
+    },
+    {
+      "address": "0x0283017C",
+      "func_address": "0x02831750",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 34,
+      "string": "Applications/Outlook/Profiles.txt",
+      "raw_hex": "4170706c69636174696f6e732f4f75746c6f6f6b2f50726f66696c65732e74787400"
+    },
+    {
+      "address": "0x0283028E",
+      "func_address": "0x02830F40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 131097 (0x00020019)",
+      "raw_hex": "19000200"
+    },
+    {
+      "address": "0x028302CF",
+      "func_address": "0x02830EC0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 30,
+      "string": "\\REGISTRY\\USER",
+      "raw_hex": "5c00520045004700490053005400520059005c0055005300450052000000"
+    },
+    {
+      "address": "0x028303EA",
+      "func_address": "0x02830F40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 131097 (0x00020019)",
+      "raw_hex": "19000200"
+    },
+    {
+      "address": "0x0283042B",
+      "func_address": "0x02830EC0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 30,
+      "string": "\\REGISTRY\\USER",
+      "raw_hex": "5c00520045004700490053005400520059005c0055005300450052000000"
+    },
+    {
+      "address": "0x02830581",
+      "func_address": "0x02830720",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 92 (0x005C)",
+      "raw_hex": "5c00"
+    },
+    {
+      "address": "0x0283060B",
+      "func_address": "0x028307B0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 60,
+      "string": "\\LocalState\\Indexed\\LiveComm\\",
+      "raw_hex": "5c004c006f00630061006c00530074006100740065005c0049006e00640065007800650064005c004c0069007600650043006f006d006d005c000000"
+    },
+    {
+      "address": "0x02830685",
+      "func_address": "0x02830840",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 12,
+      "string": "*.eml",
+      "raw_hex": "2a002e0065006d006c000000"
+    },
+    {
+      "address": "0x028306DE",
+      "func_address": "0x028308D0",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 38,
+      "string": "Mails/Windows Mail",
+      "raw_hex": "4d00610069006c0073002f00570069006e0064006f007700730020004d00610069006c000000"
+    },
+    {
+      "address": "0x02831B72",
+      "func_address": "0x02837BD0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 92,
+      "string": "RE\\Microsoft\\Windows\\CurrentVersion\\Uninstall",
+      "raw_hex": "520045005c004d006900630072006f0073006f00660074005c00570069006e0064006f00770073005c00430075007200720065006e007400560065007200730069006f006e005c0055006e0069006e007300740061006c006c000000"
+    },
+    {
+      "address": "0x02831E4D",
+      "func_address": "0x02837B40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2391772302 (0x8E8F8C8E)",
+      "raw_hex": "8e8c8f8e"
+    },
+    {
+      "address": "0x02831EAD",
+      "func_address": "0x02837B40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02831FEB",
+      "func_address": "0x02837E80",
+      "encoding": "UTF-8",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "d___",
+      "raw_hex": "645f5f5f"
+    },
+    {
+      "address": "0x0283204D",
+      "func_address": "0x02837B40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02832064",
+      "func_address": "0x02837F10",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225476 (0xC0000004)",
+      "raw_hex": "040000c0"
+    },
+    {
+      "address": "0x02832089",
+      "func_address": "0x02837F90",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 5 (0x00000005)",
+      "raw_hex": "05000000"
+    },
+    {
+      "address": "0x028320EB",
+      "func_address": "0x02837B40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0283223A",
+      "func_address": "0x02838010",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 14,
+      "string": "Processes.txt",
+      "raw_hex": "50726f6365737365732e74787400"
+    },
+    {
+      "address": "0x028322DC",
+      "func_address": "0x028350E0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "steam.exe",
+      "raw_hex": "73007400650061006d002e006500780065000000"
+    },
+    {
+      "address": "0x02832319",
+      "func_address": "0x02835180",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1040 (0x00000410)",
+      "raw_hex": "10040000"
+    },
+    {
+      "address": "0x0283238D",
+      "func_address": "0x02835210",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 44,
+      "string": "eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0",
+      "raw_hex": "6579416964486c77496a6f67496b70585643497349434a68624763694f694169525752455530456949483000"
+    },
+    {
+      "address": "0x0283253E",
+      "func_address": "0x02837AC0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 1,
+      "string": "c2",
+      "raw_hex": "c2"
+    },
+    {
+      "address": "0x028327FE",
+      "func_address": "0x02835340",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 30,
+      "string": "Applications/Steam/Tokens.txt",
+      "raw_hex": "4170706c69636174696f6e732f537465616d2f546f6b656e732e74787400"
+    },
+    {
+      "address": "0x028328AF",
+      "func_address": "0x02835AA0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "InstallPath",
+      "raw_hex": "49006e007300740061006c006c0050006100740068000000"
+    },
+    {
+      "address": "0x02833520",
+      "func_address": "0x028375A0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 30,
+      "string": "Software/Valve/Steam/Accounts",
+      "raw_hex": "536f6674776172652f56616c76652f537465616d2f4163636f756e747300"
+    },
+    {
+      "address": "0x02833AC3",
+      "func_address": "0x028380A0",
+      "encoding": "UTF-16LE",
+      "algo_type": 7,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "AppData",
+      "raw_hex": "41007000700044006100740061000000"
+    },
+    {
+      "address": "0x02833C2F",
+      "func_address": "0x02838370",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 26,
+      "string": "\\Local State",
+      "raw_hex": "5c004c006f00630061006c002000530074006100740065000000"
+    },
+    {
+      "address": "0x02833CF2",
+      "func_address": "0x028386A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x02833DD8",
+      "func_address": "0x02838580",
+      "encoding": "UTF-16LE",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 46,
+      "string": "\\Local Storage\\leveldb",
+      "raw_hex": "5c004c006f00630061006c002000530074006f0072006100670065005c006c006500760065006c00640062000000"
+    },
+    {
+      "address": "0x02833E86",
+      "func_address": "0x02838610",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "/leveldb",
+      "raw_hex": "2f006c006500760065006c00640062000000"
+    },
+    {
+      "address": "0x0283401F",
+      "func_address": "0x02838580",
+      "encoding": "UTF-16LE",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 46,
+      "string": "\\Local Storage\\leveldb",
+      "raw_hex": "5c004c006f00630061006c002000530074006f0072006100670065005c006c006500760065006c00640062000000"
+    },
+    {
+      "address": "0x028340C7",
+      "func_address": "0x02838610",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "/leveldb",
+      "raw_hex": "2f006c006500760065006c00640062000000"
+    },
+    {
+      "address": "0x02834145",
+      "func_address": "0x028386A0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 42 (0x0000002A)",
+      "raw_hex": "2a000000"
+    },
+    {
+      "address": "0x028347DA",
+      "func_address": "0x028381E0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "Discord",
+      "raw_hex": "44006900730063006f00720064000000"
+    },
+    {
+      "address": "0x02834839",
+      "func_address": "0x02838270",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 28,
+      "string": "DiscordCanary",
+      "raw_hex": "44006900730063006f0072006400430061006e006100720079000000"
+    },
+    {
+      "address": "0x0283488E",
+      "func_address": "0x028382F0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "DiscordPTB",
+      "raw_hex": "44006900730063006f00720064005000540042000000"
+    },
+    {
+      "address": "0x028349AF",
+      "func_address": "0x02838730",
+      "encoding": "UTF-16LE",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 64,
+      "string": "%AppData%\\Notepad++\\session.xml",
+      "raw_hex": "2500410070007000440061007400610025005c004e006f00740065007000610064002b002b005c00730065007300730069006f006e002e0078006d006c000000"
+    },
+    {
+      "address": "0x028349FC",
+      "func_address": "0x028387C0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1082163363 (0x408080A3)",
+      "raw_hex": "a3808040"
+    },
+    {
+      "address": "0x028389BA",
+      "func_address": "0x02842210",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 18,
+      "string": "Execution Path:",
+      "raw_hex": "0a457865637574696f6e20506174683a2000"
+    },
+    {
+      "address": "0x02838A28",
+      "func_address": "0x02842190",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 0.9737,
+      "size": 40,
+      "string": "Build Date: Jan 14 2026\nConfiguration:",
+      "raw_hex": "4275696c6420446174653a204a616e20313420323032360a436f6e66696775726174696f6e3a2000"
+    },
+    {
+      "address": "0x02838B3F",
+      "func_address": "0x028423A0",
+      "encoding": "UTF-8",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": ";:9",
+      "raw_hex": "3b3a39"
+    },
+    {
+      "address": "0x02838B53",
+      "func_address": "0x02842320",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "Yes",
+      "raw_hex": "59657300"
+    },
+    {
+      "address": "0x02838B7A",
+      "func_address": "0x02842290",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 12,
+      "string": "Elevated:",
+      "raw_hex": "0a456c6576617465643a2000"
+    },
+    {
+      "address": "0x02838BE8",
+      "func_address": "0x02842430",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 17,
+      "string": "Computer Name:",
+      "raw_hex": "0a436f6d7075746572204e616d653a2000"
+    },
+    {
+      "address": "0x02839F9D",
+      "func_address": "0x02840B00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2147352576 (0x7FFE0000)",
+      "raw_hex": "0000fe7f"
+    },
+    {
+      "address": "0x02839FFC",
+      "func_address": "0x02840B80",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3806520036 (0xE2E2E2E4)",
+      "raw_hex": "e4e2e2e2"
+    },
+    {
+      "address": "0x0283A2AE",
+      "func_address": "0x02840C50",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.6154,
+      "size": 16,
+      "string": "[BINARY 16 bytes]",
+      "raw_hex": "035b80b41cfa44047304e893eeb41209"
+    },
+    {
+      "address": "0x0283A4A9",
+      "func_address": "0x02840CD0",
+      "encoding": "GUID",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{DC12A687-737F-11CF-884D-00AA004B2E24}",
+      "raw_hex": "87a612dc7f73cf11884d00aa004b2e24"
+    },
+    {
+      "address": "0x0283AA32",
+      "func_address": "0x02840DE0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "WQL",
+      "raw_hex": "570051004c000000"
+    },
+    {
+      "address": "0x0283ACA9",
+      "func_address": "0x02840E70",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 72,
+      "string": "SELECT * FROM Win32_OperatingSystem",
+      "raw_hex": "530045004c0045004300540020002a002000460052004f004d002000570069006e00330032005f004f007000650072006100740069006e006700530079007300740065006d000000"
+    },
+    {
+      "address": "0x0283AE25",
+      "func_address": "0x02840D60",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "ROOT\\CIMV2",
+      "raw_hex": "52004f004f0054005c00430049004d00560032000000"
+    },
+    {
+      "address": "0x0283B0FD",
+      "func_address": "0x02841000",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 28,
+      "string": "LocalDateTime",
+      "raw_hex": "4c006f00630061006c004400610074006500540069006d0065000000"
+    },
+    {
+      "address": "0x0283B30D",
+      "func_address": "0x02840EF0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "Caption",
+      "raw_hex": "430061007000740069006f006e000000"
+    },
+    {
+      "address": "0x0283B42D",
+      "func_address": "0x02841570",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "InstallDate",
+      "raw_hex": "49006e007300740061006c006c0044006100740065000000"
+    },
+    {
+      "address": "0x0283B5D0",
+      "func_address": "0x02841AD0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": "Name",
+      "raw_hex": "4e0061006d0065000000"
+    },
+    {
+      "address": "0x0283B96B",
+      "func_address": "0x02841A60",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 72,
+      "string": "SELECT * FROM Win32_VideoController",
+      "raw_hex": "530045004c0045004300540020002a002000460052004f004d002000570069006e00330032005f0056006900640065006f0043006f006e00740072006f006c006c00650072000000"
+    },
+    {
+      "address": "0x0283BB39",
+      "func_address": "0x02841610",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 6 (0x00000006)",
+      "raw_hex": "06000000"
+    },
+    {
+      "address": "0x0283BB78",
+      "func_address": "0x02841690",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x0283BBAA",
+      "func_address": "0x02841720",
+      "encoding": "binary",
+      "algo_type": 4,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4 (0x00000004)",
+      "raw_hex": "04000000"
+    },
+    {
+      "address": "0x0283BBEC",
+      "func_address": "0x028417C0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "2e",
+      "raw_hex": "2e"
+    },
+    {
+      "address": "0x0283BC63",
+      "func_address": "0x028418E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3a",
+      "raw_hex": "3a"
+    },
+    {
+      "address": "0x0283BCA1",
+      "func_address": "0x02841960",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3a",
+      "raw_hex": "3a"
+    },
+    {
+      "address": "0x0283BCD3",
+      "func_address": "0x028419E0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 12 (0x0000000C)",
+      "raw_hex": "0c000000"
+    },
+    {
+      "address": "0x0283C7D3",
+      "func_address": "0x02840F80",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "Windows",
+      "raw_hex": "57696e646f777300"
+    },
+    {
+      "address": "0x0283CC31",
+      "func_address": "0x028428A0",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "vwtu",
+      "raw_hex": "76777475"
+    },
+    {
+      "address": "0x0283CC90",
+      "func_address": "0x028428A0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x0283CDC4",
+      "func_address": "0x028428A0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x0283D321",
+      "func_address": "0x02841ED0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "displayName",
+      "raw_hex": "64006900730070006c00610079004e0061006d0065000000"
+    },
+    {
+      "address": "0x0283D3F9",
+      "func_address": "0x02841DB0",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 8,
+      "string": "WQL",
+      "raw_hex": "570051004c000000"
+    },
+    {
+      "address": "0x0283D514",
+      "func_address": "0x02841E50",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 62,
+      "string": "SELECT * FROM AntiVirusProduct",
+      "raw_hex": "530045004c0045004300540020002a002000460052004f004d00200041006e007400690056006900720075007300500072006f0064007500630074000000"
+    },
+    {
+      "address": "0x0283D83E",
+      "func_address": "0x02841ED0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "displayName",
+      "raw_hex": "64006900730070006c00610079004e0061006d0065000000"
+    },
+    {
+      "address": "0x0283DC74",
+      "func_address": "0x02841B70",
+      "encoding": "GUID",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{4590F811-1D3A-11D0-891F-00AA004B2E24}",
+      "raw_hex": "11f890453a1dd011891f00aa004b2e24"
+    },
+    {
+      "address": "0x0283DD9D",
+      "func_address": "0x02841C00",
+      "encoding": "GUID",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{DC12A687-737F-11CF-884D-00AA004B2E24}",
+      "raw_hex": "87a612dc7f73cf11884d00aa004b2e24"
+    },
+    {
+      "address": "0x0283E32E",
+      "func_address": "0x02841C80",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 34,
+      "string": "\\SecurityCenter2",
+      "raw_hex": "5c0053006500630075007200690074007900430065006e0074006500720032000000"
+    },
+    {
+      "address": "0x0283E377",
+      "func_address": "0x02841D20",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 10,
+      "string": "ROOT",
+      "raw_hex": "52004f004f0054000000"
+    },
+    {
+      "address": "0x0283E589",
+      "func_address": "0x028428A0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x0283E5F4",
+      "func_address": "0x028428A0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x0283E6C1",
+      "func_address": "0x028428A0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x0283E910",
+      "func_address": "0x028428A0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 100 (0x00000064)",
+      "raw_hex": "64000000"
+    },
+    {
+      "address": "0x0283EBD9",
+      "func_address": "0x028436E0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 14,
+      "string": "Clipboard.txt",
+      "raw_hex": "436c6970626f6172642e74787400"
+    },
+    {
+      "address": "0x0283F06F",
+      "func_address": "0x02843780",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 15,
+      "string": "Screenshot.png",
+      "raw_hex": "53637265656e73686f742e706e6700"
+    },
+    {
+      "address": "0x0283F6A2",
+      "func_address": "0x02842080",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 8 (0x00000008)",
+      "raw_hex": "08000000"
+    },
+    {
+      "address": "0x0283F78C",
+      "func_address": "0x02842100",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "GDI32.dll",
+      "raw_hex": "470044004900330032002e0064006c006c000000"
+    },
+    {
+      "address": "0x02843A4E",
+      "func_address": "0x028459F0",
+      "encoding": "UTF-16LE",
+      "algo_type": 12,
+      "printable_ratio": 1.0,
+      "size": 62,
+      "string": "This country is not supported!",
+      "raw_hex": "5400680069007300200063006f0075006e0074007200790020006900730020006e006f007400200073007500700070006f00720074006500640021000000"
+    },
+    {
+      "address": "0x02843B10",
+      "func_address": "0x02845A80",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "Warning",
+      "raw_hex": "5700610072006e0069006e0067000000"
+    },
+    {
+      "address": "0x02843BBE",
+      "func_address": "0x02845B00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1342177304 (0x50000018)",
+      "raw_hex": "18000050"
+    },
+    {
+      "address": "0x02843C8F",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02843D48",
+      "func_address": "0x02845C30",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 1073741824 (0x40000000)",
+      "raw_hex": "00000040"
+    },
+    {
+      "address": "0x02843D70",
+      "func_address": "0x02845C30",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 1073741824 (0x40000000)",
+      "raw_hex": "00000040"
+    },
+    {
+      "address": "0x02843DA0",
+      "func_address": "0x02845CB0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "VMKV",
+      "raw_hex": "564d4b56"
+    },
+    {
+      "address": "0x02843DD2",
+      "func_address": "0x02845D40",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "CGTC",
+      "raw_hex": "43475443"
+    },
+    {
+      "address": "0x02843E02",
+      "func_address": "0x02845DE0",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "reVM",
+      "raw_hex": "7265564d"
+    },
+    {
+      "address": "0x02843E2E",
+      "func_address": "0x02845E80",
+      "encoding": "UTF-8",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "VBox",
+      "raw_hex": "56426f78"
+    },
+    {
+      "address": "0x02843E5C",
+      "func_address": "0x02845F40",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "MMXe",
+      "raw_hex": "4d4d5865"
+    },
+    {
+      "address": "0x02843F28",
+      "func_address": "0x02845FD0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2947460480 (0xAFAEAD80)",
+      "raw_hex": "80adaeaf"
+    },
+    {
+      "address": "0x0284401B",
+      "func_address": "0x02846060",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 16777619 (0x01000193)",
+      "raw_hex": "93010001"
+    },
+    {
+      "address": "0x028440B3",
+      "func_address": "0x028460F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 8 (0x00000008)",
+      "raw_hex": "08000000"
+    },
+    {
+      "address": "0x02844114",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844188",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028441EE",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844232",
+      "func_address": "0x028462C0",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4 (0x00000004)",
+      "raw_hex": "04000000"
+    },
+    {
+      "address": "0x0284424F",
+      "func_address": "0x02846220",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 11 (0x0000000B)",
+      "raw_hex": "0b000000"
+    },
+    {
+      "address": "0x0284428E",
+      "func_address": "0x02846190",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 24,
+      "string": "SystemDrive",
+      "raw_hex": "530079007300740065006d00440072006900760065000000"
+    },
+    {
+      "address": "0x028442B9",
+      "func_address": "0x02846350",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 67 (0x0043)",
+      "raw_hex": "4300"
+    },
+    {
+      "address": "0x028442D1",
+      "func_address": "0x028463D0",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 2,
+      "string": "WORD: 2371 (0x0943)",
+      "raw_hex": "4309"
+    },
+    {
+      "address": "0x028442E9",
+      "func_address": "0x02846460",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 2,
+      "string": "WORD: 92 (0x005C)",
+      "raw_hex": "5c00"
+    },
+    {
+      "address": "0x02844341",
+      "func_address": "0x028464E0",
+      "encoding": "GUID",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{4590F811-1D3A-11D0-891F-00AA004B2E24} (IWbemObjectSink)",
+      "raw_hex": "11f890453a1dd011891f00aa004b2e24"
+    },
+    {
+      "address": "0x02844391",
+      "func_address": "0x02846560",
+      "encoding": "GUID",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 16,
+      "string": "{DC12A687-737F-11CF-884D-00AA004B2E24} (IClassFactory2)",
+      "raw_hex": "87a612dc7f73cf11884d00aa004b2e24"
+    },
+    {
+      "address": "0x0284441F",
+      "func_address": "0x028465E0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 22,
+      "string": "ROOT\\CIMV2",
+      "raw_hex": "52004f004f0054005c00430049004d00560032000000"
+    },
+    {
+      "address": "0x02844504",
+      "func_address": "0x028466F0",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 50,
+      "string": "SELECT * FROM Win32_BIOS",
+      "raw_hex": "530045004c0045004300540020002a002000460052004f004d002000570069006e00330032005f00420049004f0053000000"
+    },
+    {
+      "address": "0x028445BA",
+      "func_address": "0x02846770",
+      "encoding": "UTF-16LE",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 26,
+      "string": "SerialNumber",
+      "raw_hex": "530065007200690061006c004e0075006d006200650072000000"
+    },
+    {
+      "address": "0x02844884",
+      "func_address": "0x02846810",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1726533 (0x001A5845)",
+      "raw_hex": "45581a00"
+    },
+    {
+      "address": "0x028448BB",
+      "func_address": "0x02846890",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3957230099 (0xEBDE8A13)",
+      "raw_hex": "138adeeb"
+    },
+    {
+      "address": "0x02844918",
+      "func_address": "0x02846930",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "30",
+      "raw_hex": "30"
+    },
+    {
+      "address": "0x028449AF",
+      "func_address": "0x028469D0",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1048704 (0x00100080)",
+      "raw_hex": "80001000"
+    },
+    {
+      "address": "0x02844A5A",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844BA3",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844BF9",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844C0C",
+      "func_address": "0x02846AE0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225476 (0xC0000004)",
+      "raw_hex": "040000c0"
+    },
+    {
+      "address": "0x02844D09",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844DAD",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844DD9",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02844DF9",
+      "func_address": "0x02846B80",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2147483653 (0x80000005)",
+      "raw_hex": "05000080"
+    },
+    {
+      "address": "0x0284500D",
+      "func_address": "0x02846C00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 131097 (0x00020019)",
+      "raw_hex": "19000200"
+    },
+    {
+      "address": "0x028450F9",
+      "func_address": "0x02845BA0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284746A",
+      "func_address": "0x0284A150",
+      "encoding": "binary",
+      "algo_type": 7,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2776367731 (0xA57C0273)",
+      "raw_hex": "73027ca5"
+    },
+    {
+      "address": "0x028474C8",
+      "func_address": "0x0284A210",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1202989881 (0x47B42B39)",
+      "raw_hex": "392bb447"
+    },
+    {
+      "address": "0x0284755D",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02847571",
+      "func_address": "0x028497B0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225476 (0xC0000004)",
+      "raw_hex": "040000c0"
+    },
+    {
+      "address": "0x028475F0",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284760E",
+      "func_address": "0x02849840",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221226021 (0xC0000225)",
+      "raw_hex": "250200c0"
+    },
+    {
+      "address": "0x0284772D",
+      "func_address": "0x028498D0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225480 (0xC0000008)",
+      "raw_hex": "080000c0"
+    },
+    {
+      "address": "0x02847760",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3553874899 (0xD3D3D3D3)",
+      "raw_hex": "d3d3d3d3"
+    },
+    {
+      "address": "0x028477D1",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284783A",
+      "func_address": "0x02849950",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3221225480 (0xC0000008)",
+      "raw_hex": "080000c0"
+    },
+    {
+      "address": "0x0284786D",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028478F7",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02847951",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3351758791 (0xC7C7C7C7)",
+      "raw_hex": "c7c7c7c7"
+    },
+    {
+      "address": "0x02847A88",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3419130827 (0xCBCBCBCB)",
+      "raw_hex": "cbcbcbcb"
+    },
+    {
+      "address": "0x02847BEC",
+      "func_address": "0x028499D0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 21,
+      "string": "NtQueryVirtualMemory",
+      "raw_hex": "4e7451756572795669727475616c4d656d6f727900"
+    },
+    {
+      "address": "0x02847CA9",
+      "func_address": "0x02849A50",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 28 (0x0000001C)",
+      "raw_hex": "1c000000"
+    },
+    {
+      "address": "0x02847D19",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3082270647 (0xB7B7B7B7)",
+      "raw_hex": "b7b7b7b7"
+    },
+    {
+      "address": "0x02847E9E",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 3419130827 (0xCBCBCBCB)",
+      "raw_hex": "cbcbcbcb"
+    },
+    {
+      "address": "0x02847F53",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02847FD2",
+      "func_address": "0x02849AE0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 65536 (0x00010000)",
+      "raw_hex": "00000100"
+    },
+    {
+      "address": "0x02848123",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02848198",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02848234",
+      "func_address": "0x0284A290",
+      "encoding": "binary",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3f",
+      "raw_hex": "3f"
+    },
+    {
+      "address": "0x02848290",
+      "func_address": "0x0284A360",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3f",
+      "raw_hex": "3f"
+    },
+    {
+      "address": "0x02848364",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284841F",
+      "func_address": "0x02849B60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1048576 (0x00100000)",
+      "raw_hex": "00001000"
+    },
+    {
+      "address": "0x02848442",
+      "func_address": "0x02849BE0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 12288 (0x00003000)",
+      "raw_hex": "00300000"
+    },
+    {
+      "address": "0x028484A7",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02848524",
+      "func_address": "0x02845C30",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 67437572 (0x04050404)",
+      "raw_hex": "04040504"
+    },
+    {
+      "address": "0x028486B4",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02848738",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x028489CD",
+      "func_address": "0x02849C60",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 32768 (0x00008000)",
+      "raw_hex": "00800000"
+    },
+    {
+      "address": "0x02848A2C",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02848B29",
+      "func_address": "0x0284A3F0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 1,
+      "string": "cb",
+      "raw_hex": "cb"
+    },
+    {
+      "address": "0x02848B94",
+      "func_address": "0x0284A470",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3f",
+      "raw_hex": "3f"
+    },
+    {
+      "address": "0x02848F52",
+      "func_address": "0x02849D80",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1773921745 (0x69BBE5D1)",
+      "raw_hex": "d1e5bb69"
+    },
+    {
+      "address": "0x02848F94",
+      "func_address": "0x02849D00",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 1364218307 (0x515051C3)",
+      "raw_hex": "c3515051"
+    },
+    {
+      "address": "0x02849193",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284922A",
+      "func_address": "0x0284A290",
+      "encoding": "binary",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3f",
+      "raw_hex": "3f"
+    },
+    {
+      "address": "0x0284927B",
+      "func_address": "0x0284A360",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 1,
+      "string": "3f",
+      "raw_hex": "3f"
+    },
+    {
+      "address": "0x02849314",
+      "func_address": "0x02849700",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x02849363",
+      "func_address": "0x02849E10",
+      "encoding": "UTF-16LE",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "ntdll.dll",
+      "raw_hex": "6e00740064006c006c002e0064006c006c000000"
+    },
+    {
+      "address": "0x02849660",
+      "func_address": "0x0284A0C0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 2085883618 (0x7C540EE2)",
+      "raw_hex": "e20e547c"
+    },
+    {
+      "address": "0x0284BA98",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284BB0E",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284BB61",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284BBF1",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284BC6A",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284BCDD",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284BE99",
+      "func_address": "0x0284C9A0",
+      "encoding": "UTF-16LE",
+      "algo_type": 5,
+      "printable_ratio": 1.0,
+      "size": 20,
+      "string": "ntdll.dll",
+      "raw_hex": "6e00740064006c006c002e0064006c006c000000"
+    },
+    {
+      "address": "0x0284C118",
+      "func_address": "0x0284CA40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 16777619 (0x01000193)",
+      "raw_hex": "93010001"
+    },
+    {
+      "address": "0x0284C326",
+      "func_address": "0x0284CB50",
+      "encoding": "shellcode",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 16,
+      "string": "[SHELLCODE (x64) 16 bytes]",
+      "raw_hex": "fc4889ce4889e74883ec104080e40000"
+    },
+    {
+      "address": "0x0284C392",
+      "func_address": "0x0284CCF0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.6,
+      "size": 5,
+      "string": "4c8b461000",
+      "raw_hex": "4c8b461000"
+    },
+    {
+      "address": "0x0284C3DA",
+      "func_address": "0x0284CBE0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 953160 (0x000E8B48)",
+      "raw_hex": "488b0e00"
+    },
+    {
+      "address": "0x0284C422",
+      "func_address": "0x0284CDB0",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.6,
+      "size": 5,
+      "string": "4c8b4e1800",
+      "raw_hex": "4c8b4e1800"
+    },
+    {
+      "address": "0x0284C45F",
+      "func_address": "0x0284CC70",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.6,
+      "size": 5,
+      "string": "488b560800",
+      "raw_hex": "488b560800"
+    },
+    {
+      "address": "0x0284C4B0",
+      "func_address": "0x0284CE40",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 3,
+      "string": "6a0000",
+      "raw_hex": "6a0000"
+    },
+    {
+      "address": "0x0284C534",
+      "func_address": "0x0284CED0",
+      "encoding": "UTF-8",
+      "algo_type": 1,
+      "printable_ratio": 0.8333,
+      "size": 6,
+      "string": "H\ufffdF P",
+      "raw_hex": "488b46205000"
+    },
+    {
+      "address": "0x0284C5B1",
+      "func_address": "0x0284CF50",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.625,
+      "size": 9,
+      "string": "[BINARY 9 bytes]",
+      "raw_hex": "488b86800000005000"
+    },
+    {
+      "address": "0x0284C5F8",
+      "func_address": "0x0284CFD0",
+      "encoding": "UTF-8",
+      "algo_type": 4,
+      "printable_ratio": 1.0,
+      "size": 9,
+      "string": "H\ufffd\ufffd 1\ufffdI\ufffd",
+      "raw_hex": "4883ec2031c049ba00"
+    },
+    {
+      "address": "0x0284C643",
+      "func_address": "0x0284D060",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.375,
+      "size": 8,
+      "string": "41ffd24889fcc300",
+      "raw_hex": "41ffd24889fcc300"
+    },
+    {
+      "address": "0x0284C702",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284C7CC",
+      "func_address": "0x0284D0E0",
+      "encoding": "shellcode",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 90,
+      "string": "[SHELLCODE (Heaven's Gate) 90 bytes]",
+      "raw_hex": "5589e556578b75088b4d0ce8000000005883c02a83ec0889e2c74204330000008902e80e000000668cd98ed183c4145f5e5dc208008b3c24ff2a4831c057ffd65f50c744240423000000893c244889c221c048c1ea20ff2c2400"
+    },
+    {
+      "address": "0x0284C873",
+      "func_address": "0x0284D170",
+      "encoding": "binary",
+      "algo_type": 5,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 555819514 (0x212121FA)",
+      "raw_hex": "fa212121"
+    },
+    {
+      "address": "0x0284C8FE",
+      "func_address": "0x0284C920",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 0.0,
+      "size": 4,
+      "string": "DWORD: 4294967295 (0xFFFFFFFF)",
+      "raw_hex": "ffffffff"
+    },
+    {
+      "address": "0x0284D22B",
+      "func_address": "0x0284EE60",
+      "encoding": "binary",
+      "algo_type": 3,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 48 (0x00000030)",
+      "raw_hex": "30000000"
+    },
+    {
+      "address": "0x0284D59B",
+      "func_address": "0x0284F030",
+      "encoding": "binary",
+      "algo_type": 1,
+      "printable_ratio": 1.0,
+      "size": 4,
+      "string": "DWORD: 23117 (0x00005A4D)",
+      "raw_hex": "4d5a0000"
+    }
+  ]
+}
