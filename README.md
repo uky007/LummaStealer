@@ -91,7 +91,7 @@ The loader sample is available on [MalwareBazaar](https://bazaar.abuse.ch/sample
 | 2 | `lumma_fix_cff_v2.py` | Patches CFF (Control Flow Flattening) dispatchers. Handles both contiguous (`mov reg,[reg+reg*4]; jmp reg`) and split patterns. ~467 dispatchers across 4 clusters. |
 | 3 | `fix_zeroed_switches.py` | Fixes 7 zeroed switch tables that cause "switch analysis failed" in Hex-Rays. Patches each to jump to default case. |
 | 4 | `lumma_code_deobfuscator.py` | Multi-phase cleanup: (A) jmp/call reg code recovery, (B) data-to-code in CFF regions, (C) junk instruction removal, (D) dead code elimination. |
-| 5 | `lumma_deobfuscator.py` | Main string/data deobfuscator. Identifies 460 decrypt functions, extracts encrypted stack data, decrypts with 10 MBA algorithm types, annotates IDA comments. |
+| 5 | `lumma_deobfuscator.py` | Main string/data deobfuscator. Identifies 460 decrypt functions, extracts encrypted stack data, decrypts with 11 MBA algorithm types, annotates IDA comments. |
 | 6 | `lumma_apply_layer2.py` | Writes Layer 2 decoded results back to IDA comments. |
 
 ### Standalone Scripts
@@ -157,7 +157,7 @@ These scripts are research tools validated against the target sample (SHA256 `de
 
 ## Future Work
 
-- **MBA expression simplification**: 346 MBA expression clusters remain in the binary. These produce correct but complex pseudocode in Hex-Rays. A simplification pass could reduce `((x & m) | (~x & ~m)) + k` back to `x ^ m + k`.
+- **MBA expression simplification**: 1198 MBA expression clusters were detected by the Capstone scanner (346 of which are non-loop, likely obfuscation rather than legitimate crypto/hash). These produce correct but complex pseudocode in Hex-Rays. A simplification pass could reduce `((x & m) | (~x & ~m)) + k` back to `x ^ m + k`.
 - **Generalize for Lumma variants**: Auto-detect algorithm parameters, section layout, and version-specific patterns for other builds.
 - **Layer 2 low-confidence entries**: 8 decoded entries with confidence < 0.60 need IDA runtime verification.
 - **Cross-cluster CFF flow tracing**: Enumerate all inter-cluster jumps and trace register values to resolve remaining Cluster 0/1 dispatchers. See `CFF_CROSS_CLUSTER_ANALYSIS.md` for details.

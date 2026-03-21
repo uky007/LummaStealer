@@ -3,7 +3,7 @@ lumma_fix_cff_v2.py - IDA Python Script
 Fixes Control Flow Flattening (CFF) obfuscation in Lumma Stealer.
 
 Improvements over v1 (lumma_fix_cff.py):
-  - Detects SPLIT dispatchers: mov reg,[reg+reg*4]; <insn>; jmp reg  (56 extra)
+  - Detects SPLIT dispatchers: mov reg,[reg+reg*4]; <insn>; jmp reg  (68 extra)
   - NOPs full setup sequence (const-init + stack loads + core + gap)
   - Identifies setcc-based conditional dispatches for analysis
   - Better junk detection and cleanup
