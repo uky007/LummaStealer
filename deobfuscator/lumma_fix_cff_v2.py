@@ -55,6 +55,36 @@ import ida_segment
 
 
 # ============================================================================
+# Target Sample Guard
+# ============================================================================
+# This script uses raw byte scanning (not instruction-boundary-aware) to locate
+# CFF dispatcher setup sequences. It is validated against the target sample only.
+# Running on a different binary may cause incorrect patches.
+
+EXPECTED_TEXT_SHA256 = "a3c8b36e3b4c7e5f"  # first 16 hex chars of .text SHA256
+# Set to None to disable the guard (at your own risk)
+
+def _check_target_sample():
+    """Warn if the current binary doesn't match the expected target."""
+    if EXPECTED_TEXT_SHA256 is None:
+        return
+    import hashlib
+    text_seg = ida_segment.get_segm_by_name(".text")
+    if not text_seg:
+        return
+    size = min(text_seg.end_ea - text_seg.start_ea, 0x1000)
+    data = ida_bytes.get_bytes(text_seg.start_ea, size)
+    if data is None:
+        return
+    h = hashlib.sha256(data).hexdigest()[:16]
+    if h != EXPECTED_TEXT_SHA256:
+        print(f"[!] WARNING: .text hash mismatch (expected {EXPECTED_TEXT_SHA256}, got {h})")
+        print(f"[!] This script is validated for sample SHA256 de67d471... only.")
+        print(f"[!] Running on a different binary may cause incorrect patches.")
+        print(f"[!] Set EXPECTED_TEXT_SHA256 = None to disable this check.")
+
+
+# ============================================================================
 # Configuration
 # ============================================================================
 
@@ -384,6 +414,8 @@ def fix_cff(dry_run=False):
     Args:
         dry_run: If True, only scan and report without making changes.
     """
+    _check_target_sample()
+
     print("=" * 70)
     print("Lumma Stealer CFF Fixer v2")
     print("  (contiguous + split dispatcher support)")

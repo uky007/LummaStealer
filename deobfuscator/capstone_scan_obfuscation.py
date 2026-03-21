@@ -32,6 +32,12 @@ PAYLOAD_PATH = os.path.join(SCRIPT_DIR, "sample",
     "de67d471f63e0d2667fb1bd6381ad60465f79a1b8a7ba77f05d8532400178874_payload.exe")
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "obfuscation_scan_results.json")
 
+if not os.path.exists(PAYLOAD_PATH):
+    print(f"[!] Payload not found: {PAYLOAD_PATH}")
+    print(f"[!] Download the sample from MalwareBazaar (SHA256: de67d471...) and")
+    print(f"[!] extract the payload PE, then set PAYLOAD_PATH to its location.")
+    raise SystemExit(1)
+
 IMAGE_BASE = 0x02800000
 TEXT_VA     = 0x02801000
 TEXT_OFFSET = 0x400

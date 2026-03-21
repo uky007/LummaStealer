@@ -1533,14 +1533,20 @@ def _export_results(results, dry_run, phases, output_path=None):
 # Main Entry Point
 # ============================================================================
 
-def fix_code_obfuscation(dry_run=False, phases="ABCD"):
+def fix_code_obfuscation(dry_run=False, phases="ABD"):
     """
     Main function. Runs selected deobfuscation phases.
 
     Args:
         dry_run: If True, only scan and report without making changes.
         phases: String of phase letters to run, e.g. "A" for jmp-reg only,
-                "AC" for jmp-reg + junk, "ABCD" for all.
+                "ABCD" for all phases including Phase C.
+
+    Note: Phase C (junk pair removal) is excluded from default phases because
+    it NOP-fills instruction pairs that cancel out in value (add/sub, xor/xor,
+    inc/dec) but these instructions still modify EFLAGS. If a subsequent jcc,
+    setcc, or cmov depends on those flags, NOP removal changes semantics.
+    Use phases="ABCD" to explicitly opt in.
     """
     print("=" * 70)
     print("Lumma Stealer Comprehensive Code Deobfuscator")
