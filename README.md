@@ -10,7 +10,7 @@ We unpacked the Lumma Stealer sample from a Go-based loader, then deobfuscated t
 |----------|-------|
 | SHA-256 |  `de67d471f63e0d2667fb1bd6381ad60465f79a1b8a7ba77f05d8532400178874` |
 | Malware | Go-based Loader |
-| Build Date | Jan 14 2026 |
+| Build Date | Unknown (timestamp stripped) |
 | Architecture | x86_64 |
 
 
