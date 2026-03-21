@@ -4,12 +4,22 @@ IDA Pro Python scripts for deobfuscating [Lumma Stealer](https://malpedia.caad.f
 
 ## Target Sample
 
+We unpacked the Lumma Stealer sample from a Go-based loader, then deobfuscated the unpacked Lumma Stealer payload.
+
 | Property | Value |
 |----------|-------|
-| SHA-256 | `de67d471f63e0d2667fb1bd6381ad60465f79a1b8a7ba77f05d8532400178874` |
+| SHA-256 |  `de67d471f63e0d2667fb1bd6381ad60465f79a1b8a7ba77f05d8532400178874` |
+| Malware | Go-based Loader |
+| Build Date | Jan 14 2026 |
+| Architecture | x86_64 |
+
+
+| Property | Value |
+|----------|-------|
+| SHA-256 |  `37fc0dc17d6168506a7584654495b5a77d915981e9a0fda2e17f8b219c4415eb`|
 | Malware | Lumma Stealer (LummaC2) |
 | Build Date | Jan 14 2026 |
-| Architecture | x86 (32-bit PE), with Heaven's Gate transitions to x64 |
+| Architecture | x86 |
 
 ## Deobfuscation Results
 
