@@ -50,8 +50,8 @@ The loader sample is available on [MalwareBazaar](https://bazaar.abuse.ch/sample
 | Technique | Count | Tool |
 |-----------|------:|------|
 | Indirect jumps (FF 25 → E9) | 288 | `lumma_fix_code_obfuscation.py` |
-| CFF dispatchers (contiguous) | 399 | `lumma_fix_cff_v2.py` |
-| CFF dispatchers (split) | 68 | `lumma_fix_cff_v2.py` |
+| CFF dispatchers (contiguous) | 399 | `lumma_fix_cff_v2.py` (also in `obfuscation_scan_results.json`) |
+| CFF dispatchers (split) | 68 | `lumma_fix_cff_v2.py` (IDA-only detection) |
 | Zeroed switch tables | 7 | `fix_zeroed_switches.py` |
 | jmp/call reg code recovery | 12 | `lumma_code_deobfuscator.py` (Phase A) |
 | Dead code removal | 1170 | `lumma_code_deobfuscator.py` (Phase D) |
@@ -143,7 +143,7 @@ The `results/` directory contains analysis outputs in JSON format:
 | File | Description |
 |------|-------------|
 | `deobf_results.json` | All 610 decrypted strings, binary data, GUIDs, DWORDs, and shellcode with addresses, algorithm types, and decrypted values. |
-| `obfuscation_scan_results.json` | Capstone offline scan results: 467 CFF dispatchers, 288 indirect jumps, 16 junk pairs, 346 MBA clusters, and anti-disassembly patterns. |
+| `obfuscation_scan_results.json` | Capstone offline scan results: 399 contiguous CFF dispatchers, 288 indirect jumps, 16 junk pairs, 1198 MBA clusters, and anti-disassembly patterns. Split dispatchers (68) are detected by the IDA script only. |
 | `cff_cluster3_resolved.json` | Resolved CFF dispatcher targets for Cluster 3 (181/228 dispatchers, with jump table entries and setcc types). |
 | `cff_cluster2_resolved.json` | Resolved CFF dispatcher targets for Cluster 2 (63/94 dispatchers). |
 
@@ -151,7 +151,7 @@ The `results/` directory contains analysis outputs in JSON format:
 
 These scripts are research tools validated against the target sample (SHA256 `de67d471...`) only.
 
-- **Sample-specific byte scanning**: `lumma_fix_cff_v2.py` and `lumma_fix_code_obfuscation.py` use raw byte pattern scanning (not instruction-boundary-aware) to locate dispatcher setup sequences. False matches on other binaries could cause incorrect patches. A target sample guard warns if the binary doesn't match.
+- **Sample-specific byte scanning**: `lumma_fix_cff_v2.py` and `lumma_fix_code_obfuscation.py` use raw byte pattern scanning (not instruction-boundary-aware) to locate dispatcher setup sequences. False matches on other binaries could cause incorrect patches. Both scripts include a target sample guard that checks the original .text hash and warns if the binary doesn't match.
 - **Phase C EFLAGS side-effect**: `lumma_code_deobfuscator.py` Phase C removes instruction pairs that cancel in value (add/sub, xor/xor, inc/dec) but these instructions modify EFLAGS. A subsequent `jcc`, `setcc`, or `cmov` depending on those flags could change semantics. Phase C is excluded from the default execution (`phases="ABD"`) and must be explicitly opted in with `phases="ABCD"`.
 - **Switch register matching**: `fix_zeroed_switches.py` searches for a `mov reg, [mem]` within 5 instructions before a `jmp reg` switch without verifying register consistency. In practice, all 7 zeroed switches in this sample were already resolved by IDA auto-analysis, so this code path was never exercised.
 

@@ -43,6 +43,28 @@ import ida_idp
 
 
 # ============================================================================
+# Target Sample Guard
+# ============================================================================
+
+EXPECTED_TEXT_SHA256 = "bf3bfd4e486db347"  # Set to None to disable
+
+def _check_target_sample():
+    """Warn if the current binary doesn't match the expected target."""
+    if EXPECTED_TEXT_SHA256 is None:
+        return
+    import hashlib
+    text_seg = ida_segment.get_segm_by_name(".text")
+    if not text_seg:
+        return
+    size = min(text_seg.end_ea - text_seg.start_ea, 0x1000)
+    data = bytes(ida_bytes.get_original_byte(text_seg.start_ea + i) for i in range(size))
+    h = hashlib.sha256(data).hexdigest()[:16]
+    if h != EXPECTED_TEXT_SHA256:
+        print(f"[!] WARNING: .text hash mismatch (expected {EXPECTED_TEXT_SHA256}, got {h})")
+        print(f"[!] This script is validated for sample SHA256 de67d471... only.")
+
+
+# ============================================================================
 # Configuration
 # ============================================================================
 
@@ -296,6 +318,8 @@ def fix_indirect_jumps(dry_run=False):
     Args:
         dry_run: If True, only scan and report without making changes.
     """
+    _check_target_sample()
+
     print("=" * 70)
     print("Lumma Stealer Code Obfuscation Fixer")
     print("=" * 70)

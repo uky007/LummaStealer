@@ -24,7 +24,7 @@ Pattern:
         mov REG_E, [esp+INDEX_OFF]        ; load state index (7 bytes)
 
 CFF Analysis:
-    - 4 CFF clusters with 451 total dispatchers (399 contiguous + 56 split)
+    - 4 CFF clusters with 467 total dispatchers (399 contiguous + 68 split)
     - 85 constant-index dispatchers (always jump to same target)
     - 126 setcc-based dispatchers (obfuscated conditional branches)
     - ~184 computed-index dispatchers
@@ -61,11 +61,13 @@ import ida_segment
 # CFF dispatcher setup sequences. It is validated against the target sample only.
 # Running on a different binary may cause incorrect patches.
 
-EXPECTED_TEXT_SHA256 = "a3c8b36e3b4c7e5f"  # first 16 hex chars of .text SHA256
+EXPECTED_TEXT_SHA256 = "bf3bfd4e486db347"  # first 16 hex chars of .text SHA256 (original bytes)
 # Set to None to disable the guard (at your own risk)
 
 def _check_target_sample():
-    """Warn if the current binary doesn't match the expected target."""
+    """Warn if the current binary doesn't match the expected target.
+    Uses original (unpatched) bytes via get_original_byte to avoid
+    false warnings after prior scripts have modified .text."""
     if EXPECTED_TEXT_SHA256 is None:
         return
     import hashlib
@@ -73,9 +75,7 @@ def _check_target_sample():
     if not text_seg:
         return
     size = min(text_seg.end_ea - text_seg.start_ea, 0x1000)
-    data = ida_bytes.get_bytes(text_seg.start_ea, size)
-    if data is None:
-        return
+    data = bytes(ida_bytes.get_original_byte(text_seg.start_ea + i) for i in range(size))
     h = hashlib.sha256(data).hexdigest()[:16]
     if h != EXPECTED_TEXT_SHA256:
         print(f"[!] WARNING: .text hash mismatch (expected {EXPECTED_TEXT_SHA256}, got {h})")
