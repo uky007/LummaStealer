@@ -142,10 +142,18 @@ but that value is overwritten by cross-cluster jumps before `jmp eax` executes.
                     └──────────────┘
 ```
 
-Confirmed link:
-- Cluster 3 (0x0284040B) → Cluster 0 (0x02827467)
+Confirmed links (from resolved dispatcher targets + binary scan):
 
-Other inter-cluster links are expected to exist but have not yet been fully enumerated.
+| Source → Destination | Count | Type |
+|---------------------|-------|------|
+| Cluster 3 → Cluster 1 | 141 | CFF dispatchers (conditional + unconditional) |
+| Cluster 3 → Cluster 0 | 7 | CFF dispatchers (unconditional) |
+| Cluster 2 → Cluster 3 | 2 | E9 jmp (original binary) |
+| Cluster 3 → Cluster 0 | 1 | E8 call (0x0283C7E1 → 0x02828830) |
+
+Cluster 3 acts as the **hub** of the CFF structure, with 141 jumps into Cluster 1.
+This explains why Cluster 1's table entries appear "encrypted" — its code is primarily
+reached via Cluster 3 dispatchers, not through Cluster 1's own table lookups.
 
 ### The "Giant CFF Function"
 
