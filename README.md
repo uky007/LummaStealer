@@ -25,6 +25,56 @@ The loader sample is available on [MalwareBazaar](https://bazaar.abuse.ch/sample
 
 > **Note**: Standalone scripts (`capstone_scan_obfuscation.py`, `unicorn_resolve_cff.py`) require the payload binary. Adjust the `PAYLOAD_PATH` variable to point to your local copy.
 
+## Before / After
+
+### Decompilation: Failure → Success (CFF)
+
+CFF (Control Flow Flattening) replaces conditional branches with table-based indirect jumps (`mov eax,[eax+ecx*4]; jmp eax`), preventing Hex-Rays from building a function graph.
+
+| Before | After |
+|--------|-------|
+| ![Decompile fail](images/lumma_decompile_fail_0x02839F20.png) | ![Decompile success](images/lumma_decompile_success_0x02839F20.png) |
+| Hex-Rays refuses to decompile (`0x02839F20`) | Same address: 288 lines of COM/WMI initialization code |
+
+The root cause — a CFF dispatcher at `0x0283A9CE`:
+
+![CFF dispatcher](images/lumma_decompile_fail_cause_0x283A9CE.png)
+
+### Decompilation: Opaque → Readable (String Decryption)
+
+MBA-obfuscated decrypt functions and encrypted stack data make functions unreadable even when decompilation succeeds.
+
+| Before | After |
+|--------|-------|
+| ![Hard to read](images/lumma_decompile_hard_0x028106c0.png) | ![Easy to read](images/lumma_decompile_easy_0x028106c0.png) |
+| Magic constants and MBA expressions | IDA comments show decrypted strings (URLs, paths, GUIDs) |
+
+### Disassembly: Indirect Jump Resolution (FF 25)
+
+Indirect jumps (`jmp [dword_XXXXXXXX]`) break disassembly — bytes after the jump are misidentified as data.
+
+| Before | After |
+|--------|-------|
+| ![Code broken](images/lumma_deobf_code_fail_0x28396BF.png) | ![Code restored](images/lumma_deobf_code_success_0x28396BF.png) |
+| `jmp` followed by raw data bytes (`dw`, `dd`) | Indirect jump patched to direct `E9`, code flow restored |
+
+### Disassembly: CFF Dispatcher → Conditional Branch
+
+CFF dispatchers are replaced with `jcc`/`jmp` pairs, restoring the original branch structure.
+
+| Before | After |
+|--------|-------|
+| ![Dispatcher](images/lumma_dispather_0x283F143.png) | ![Deobfuscated](images/lumma_deobf_dispather_0x283F143.png) |
+| `mov eax,[eax+ecx*4]; jmp eax` (table dispatch) | `jz`/`jmp` conditional branch + NOP (dispatcher removed) |
+
+### String Decryption Result
+
+Decrypted strings are annotated as IDA comments, revealing malware functionality at a glance.
+
+![String decryption](images/lumma_deobf_chacha_string.png)
+
+---
+
 ## Deobfuscation Results
 
 ### String & Data Deobfuscation
