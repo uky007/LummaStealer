@@ -219,9 +219,9 @@ python3 lumma_decrypt.py payload.exe -o results.json -v
 
 | | IDA Python (`lumma_deobfuscator.py`) | Standalone (`lumma_decrypt.py`) |
 |---|---|---|
-| Decrypt functions detected | 460 (59 manually specified) | **577 (fully automatic)** |
-| Call sites processed | 610 | **790** |
-| Decrypted successfully | 610 (100%) | **781 (98.9%)** |
+| Decrypt functions detected | 460 (59 manually specified) | **577 (fully automatic, 117 false positives)** |
+| Call sites processed | 610 | **790 (incl. ~180 calls to false positive functions)** |
+| Decrypted successfully | 610 (100%) | **781 (incl. ~175 from false positive functions)** |
 | Matched against IDA results | — | **606/610 (99.3%)** |
 | Extract failures | 0 | 9 |
 | IDA Pro required | Yes | **No** |
