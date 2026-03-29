@@ -148,6 +148,7 @@ Decrypted strings are annotated as IDA comments, revealing malware functionality
 
 | Script | Description |
 |--------|-------------|
+| `lumma_decrypt.py` | **Standalone string/data decryptor using Unicorn emulation.** No IDA required. Detects decrypt functions automatically and recovers encrypted data by emulating each function directly. See [Standalone Decryptor](#standalone-decryptor-lumma_decryptpy) below. |
 | `lumma_layer2_decoder.py` | Applies second-layer decoding to double-encrypted entries. |
 | `capstone_scan_obfuscation.py` | Offline Capstone-based scanner that detects obfuscation patterns without IDA. |
 
@@ -196,6 +197,63 @@ The `results/` directory contains analysis outputs in JSON format:
 | `obfuscation_scan_results.json` | Capstone offline scan results: 399 contiguous CFF dispatchers, 288 indirect jumps, 16 junk pairs, 1198 MBA clusters, and anti-disassembly patterns. Split dispatchers (68) are detected by the IDA script only. |
 | `cff_cluster3_resolved.json` | Resolved CFF dispatcher targets for Cluster 3 (181/228 dispatchers, with jump table entries and setcc types). |
 | `cff_cluster2_resolved.json` | Resolved CFF dispatcher targets for Cluster 2 (63/94 dispatchers). |
+
+## Standalone Decryptor (`lumma_decrypt.py`)
+
+An IDA-free string/data decryptor that uses Unicorn CPU emulation instead of manual MBA algorithm classification.
+
+### How it works
+
+1. **Prologue scan**: Finds decrypt function candidates by scanning `.text` for known prologue byte patterns (`sub esp, 0x14` etc.)
+2. **Emulation-based verification**: Each candidate is called via Unicorn with a test buffer. Functions that modify the buffer in-place are confirmed as decrypt functions. This treats each function as a black box, eliminating the need to reverse-engineer 11 MBA algorithm variants.
+3. **Call site discovery**: Scans for `E8 rel32` (CALL) instructions targeting verified decrypt functions.
+4. **Stack byte extraction**: Extracts encrypted data from `mov [esp+N], imm` / `mov [reg+N], imm` patterns before each call site.
+5. **Emulated decryption**: Feeds the extracted encrypted bytes into the decrypt function via Unicorn and captures the plaintext output.
+
+```bash
+pip install pefile capstone unicorn
+python3 lumma_decrypt.py payload.exe -o results.json -v
+```
+
+### Comparison with IDA Python approach
+
+| | IDA Python (`lumma_deobfuscator.py`) | Standalone (`lumma_decrypt.py`) |
+|---|---|---|
+| Decrypt functions detected | 460 (59 manually specified) | **577 (fully automatic)** |
+| Call sites processed | 610 | **790** |
+| Decrypted successfully | 610 (100%) | **781 (98.9%)** |
+| Matched against IDA results | — | **606/610 (99.3%)** |
+| Extract failures | 0 | 9 |
+| IDA Pro required | Yes | **No** |
+| Algorithm classification | 11 types manually reverse-engineered | **Not needed (black-box emulation)** |
+| Manual parameters | 59 functions + 3 hardcoded results | **None** |
+| Code size | ~3,700 lines | **~600 lines** |
+
+### Why 4 entries cannot be recovered (static analysis limitation)
+
+The standalone tool misses 4 entries from the IDA version (all small binary data, no strings):
+
+| Call site | Size | IDA result | Root cause |
+|-----------|------|------------|------------|
+| `0x0281651E` | 2B | `0x007A` | Encrypted byte loaded via register from a prior computation (`movzx` from memory), not an immediate constant |
+| `0x02820B1F` | 3B | `0x48BE00` | Data assembled across `mov word [esp+0x128], imm16` + `mov byte [esp+0x12a], imm8` with a large stack frame offset; the IDA version uses frame analysis to resolve `var_XX` symbolic names |
+| `0x028229B3` | 4B | `0x0000002A` | Encrypted DWORD written to `[esp+0x16]` (non-aligned, unusual offset) amid unrelated word/byte writes to adjacent offsets that pollute the extraction window |
+| `0x0283E589` | 4B | `0x00000064` | Encrypted DWORD placed by `mov dword ptr [esp+0x190], imm32` at a deep stack offset (0x190); the call passes a pointer via `mov eax, esp` but without an explicit `lea`/`push` pattern |
+
+All 4 cases involve **non-standard stack data construction** where:
+- The encrypted bytes are not placed with a simple `mov [esp/reg+small_disp], imm` pattern, or
+- The buffer pointer is passed through an indirect register chain without an identifiable `lea`/`push` sequence.
+
+The IDA Python version handles these via IDA's frame variable tracking (`var_XX` resolution) and operand type analysis, which are unavailable in a standalone context. These 4 entries are all small binary constants (WORD/DWORD), not strings or GUIDs, so the practical impact is negligible.
+
+### Why 9 call sites fail extraction entirely
+
+These are calls to heavily-reused decrypt functions (e.g., `0x02849700` called 42 times) where the encrypted data is constructed through:
+- Multi-step register computation (e.g., `mov eax, [mem]; push eax` where the value comes from a prior load)
+- Conditional paths that write different data depending on runtime state
+- Nested function calls that return the encrypted buffer pointer
+
+Static byte-pattern scanning cannot resolve these without data-flow analysis or emulation of the calling code.
 
 ## Known Limitations
 
